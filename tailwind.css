@@ -24,6 +24,8 @@
 
 @layer components {
 
+  /* rodrigo */
+
   /** Prevent scroll when modal is open */
   .no-scroll {
     overflow: hidden;
