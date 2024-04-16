@@ -9,6 +9,10 @@
     font-family: var(--font-family);
   }
 
+  mark {
+    @apply bg-accent text-accent-content;
+  }
+
   /** Remove default styles from input[type=number] */
   input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {
@@ -16,39 +20,165 @@
     margin: 0;
   }
 
-  input[type=number] {
-    -moz-appearance: textfield;
-    appearance: textfield;
-  }
-}
-
-@layer components {
-
-  /* rodrigo */
-
-  /** Prevent scroll when modal is open */
-  .no-scroll {
+  /* Disable scroll once drawer/modal is openned */
+  body:has(.drawer-toggle:checked),
+  body:has(.modal-toggle:checked) {
     overflow: hidden;
     height: 100vh;
   }
+}
 
-  [data-dot].current div .dot {
-    background-color: black;
+html {
+  scroll-behavior: smooth;
+  background-color: #353535;
+}
+
+body {
+  background-color: #353535;
+  /* padding-top: 10px; */
+}
+
+@layer components {
+  .features {
+    @apply flex items-center justify-center gap-6 flex-wrap;
+    @apply relative max-w-[1280px] mx-auto;
   }
-  [data-dot] div .dot {
-    background-color: #E4E4E7;
+
+  .feature-card {
+    @apply w-[380px] max-w-[380px] lg:h-[380px] bg-[#F4F4F4] rounded-3xl;
+    @apply border-l border-transparent duration-200 whitespace-pre-line text-center;
+    @apply flex flex-col items-center justify-start gap-8 py-10 px-8 lg:px-12;
   }
 }
 
-@layer utilities {
+.group:disabled .group-disabled\:animate-progress {
+  animation: progress-frame ease normal
+}
 
-  /** Remove scrollbar from overflow-auto */
-  .scrollbar-none {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+@keyframes progress-frame {
+  0% {
+    --dot-progress: 0%
   }
 
-  .scrollbar-none::-webkit-scrollbar {
+  to {
+    --dot-progress: 100%
+  }
+}
+
+.home-title {
+  font-size: 50px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.home-content {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.home-content strong {
+  font-weight: 900;
+}
+
+.home-button {
+  background: #fff;
+  padding: 15px 35px;
+  margin-top: 25px;
+  display: inline-block;
+  border-radius: 11px;
+  color: #1E1A1A;
+  font-weight: 100;
+  cursor: pointer;
+  position: relative;
+}
+
+.home-button::after {
+  content: '';
+  background-image: url("data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4gPHBhdGggZD0iTTcgMTBMMTIgMTVMMTcgMTAiIHN0cm9rZT0iIzFFMUExQSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPiA8L2c+Cg08L3N2Zz4=");
+  width: 20px;
+  height: 20px;
+  background-size: 100% auto;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+}
+
+.address-text p {
+  font-size: 16px;
+  font-style: normal;
+}
+
+.address-text p:nth-child(2), .address-text p:nth-child(3) {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sobre-mim {
+  position: relative;
+}
+
+.sobre-mim::before {
+  content: '';
+  background-image: url('https://useorganico.vteximg.com.br/arquivos/line-throug-bg-left.png');
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.sobre-mim::after {
+  content: '';
+  background-image: url('https://useorganico.vteximg.com.br/arquivos/line-throug-bg-right.png');
+  display: block;
+  position: absolute;
+  left: 63%;
+  top: -8%;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.post-page h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.post-page p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.post-page p strong {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.post-page ul {
+  list-style: disc inside;
+  margin: 15px 30px;
+  font-size: 20px;
+}
+
+.post-page ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1020px) {
+  .sobre-mim::before,
+  .sobre-mim::after {
     display: none;
+  }
+  .home-title {
+    font-size: 30px;
+  }
+  .home-content {
+    font-size: 16px;
+  }
+  .collapse-arrow > .collapse-title:after {
+    top: 0.9rem;
   }
 }
