@@ -261,24 +261,16 @@
     "name": "collections/blog/categories/295e9e7730f9",
     "__resolveType": "blog/loaders/Category.ts",
     "category": {
-      "name": "Customization",
-      "slug": "customization"
+      "name": "Tratamentos",
+      "slug": "tratamentos"
     }
   },
   "collections/blog/categories/339e1eb309dd": {
     "name": "collections/blog/categories/339e1eb309dd",
     "__resolveType": "blog/loaders/Category.ts",
     "category": {
-      "name": "Culture",
-      "slug": "culture"
-    }
-  },
-  "collections/blog/categories/dd2398d80ec6": {
-    "name": "collections/blog/categories/dd2398d80ec6",
-    "__resolveType": "blog/loaders/Category.ts",
-    "category": {
-      "name": "Performance",
-      "slug": "performance"
+      "name": "Procedimentos",
+      "slug": "procedimentos"
     }
   },
   "collections/blog/posts/173aa7daa089": {
