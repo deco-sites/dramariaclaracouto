@@ -1,6 +1,6 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 // import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
-import Header from "./Header.tsx";
+// import Header from "./Header.tsx";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
