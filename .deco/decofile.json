@@ -646,5 +646,21 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "pages-Tratamentos-847827": {
+    "name": "Tratamentos",
+    "path": "/tratamentos",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "Preview /sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
