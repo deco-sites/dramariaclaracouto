@@ -135,8 +135,29 @@
       "__resolveType": "website/loaders/fonts/googleFonts.ts",
       "fonts": [
         {
-          "variations": [],
-          "family": "Albert Sans"
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "300"
+            },
+            {
+              "weight": "600"
+            }
+          ],
+          "family": "\"Inter\", sans-serif"
+        },
+        {
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "600"
+            }
+          ],
+          "family": "\"Plus Jakarta Sans\", sans-serif"
         }
       ]
     }
@@ -579,8 +600,7 @@
         ]
       },
       {
-        "__resolveType": "site/sections/Footer.tsx",
-        "subscribe": {}
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",

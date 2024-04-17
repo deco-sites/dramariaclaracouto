@@ -245,26 +245,26 @@ export default function BlogPosts({
               <div class="p-6 space-y-4">
                 <div class="font-semibold">{calculateReadingTime(post.content.split(" ").length)}</div>
                 <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
+                  <h3 class="text-2xl text-[#EAEBE6]">{post.title}</h3>
+                  <p class="text-base text-[#EAEBE6]">{post.excerpt}</p>
                 </div>
                 <div class="flex flex-wrap gap-2">
                   {post.categories?.map((category) => (
-                    <div class="badge badge-lg badge-primary text-xs">
+                    <div class="badge badge-lg badge-secondary text-xs">
                       {category.name}
                     </div>
                   ))}
                 </div>
                 <div class="flex flex-wrap gap-2">
-                  <span>{post.date
+                  <span class="text-[#EAEBE6]">{post.date
                     ? new Date(post.date).toLocaleDateString("en-US", {
                       month: "long",
                       day: "numeric",
                       year: "numeric",
                     })
                     : ""}</span>
-                  <span>•</span>
-                  <span>{post.authors[0]?.name}</span>
+                  <span class="text-[#EAEBE6]">•</span>
+                  <span class="text-[#EAEBE6]">{post.authors[0]?.name}</span>
                 </div>
               </div>
             </a>
