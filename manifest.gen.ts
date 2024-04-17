@@ -1,5 +1,5 @@
 // This file SHOULD be checked into source version control.
-// This file is automatically updated during development when running `dev.ts`.
+// This file is automatically updated during development when running `dev.ts`2.
 
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
