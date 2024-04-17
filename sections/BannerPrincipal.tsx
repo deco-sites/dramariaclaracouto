@@ -64,7 +64,7 @@ export default function bannerMainNew( props: Props ) {
             height={500}
           />
           <img
-            class="w-[135%] absolute top-[-80px] right-[-150px] block max-w-[1003px] 2xl:w-[125%] 2xl:top-[-100px] max-[1020px]:w-[150%] max-[1020px]:top-[0] max-[1020px]:right-0 max-[1020px]:left-[-186px] max-[1366px]:top-[-35px] max-[1020px]:relative min-[1399px]:w-[101%] min-[1399px]:top-0 max-[1370px]:w-[121%]"
+            class="w-[135%] absolute top-[-80px] right-[-150px] block max-w-[1003px] 2xl:w-[94%] 2xl:top-[-100px] max-[1020px]:w-[150%] max-[1020px]:top-[0] max-[1020px]:right-0 max-[1020px]:left-[-186px] max-[1366px]:top-[-35px] max-[1020px]:relative min-[1399px]:w-[101%] min-[1399px]:top-0 max-[1370px]:w-[121%]"
             src={banner.srcDesktop}
             decoding="async"
             loading="lazy"
