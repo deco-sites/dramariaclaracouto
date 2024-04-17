@@ -25,8 +25,8 @@ export interface Nav {
 }
 
 export const ColorType: Record<Type, string> = {
-  "dark": "base-content",
-  "light": "base-100",
+  "dark": "#EAEBE6",
+  "light": "#EAEBE6",
 };
 
 export const StyleType: Record<"background" | "color", string> = {
@@ -66,7 +66,11 @@ export default function Haader({
   },
 }: Nav) {
   return (
+<<<<<<< HEAD
     <nav class="mx-auto lg:px-4 px-4 w-full bg-[#EAEBE6]">
+=======
+    <nav class="container mx-auto lg:px-0 px-4 bg-[#EAEBE6]">
+>>>>>>> refs/remotes/origin/main
       <div class="flex gap-8 items-center justify-between py-4">
         <a href="/">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
