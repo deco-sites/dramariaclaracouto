@@ -138,6 +138,13 @@
     "bottomLinks": [],
     "social": []
   },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
+    }
+  },
   "Preview /sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx",
     "placement": "left",
@@ -442,6 +449,16 @@
       }
     }
   },
+  "pages-Procedimentos-440219": {
+    "name": "Procedimentos",
+    "path": "/procedimentos",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-home-5afd25174424": {
     "name": "Home",
     "path": "/",
@@ -583,22 +600,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "Preview /sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx",
-    "navigation": {
-      "links": [],
-      "buttons": []
-    }
-  },
-  "pages-Procedimentos-440219": {
-    "name": "Procedimentos",
-    "path": "/procedimentos",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
   }
 }
