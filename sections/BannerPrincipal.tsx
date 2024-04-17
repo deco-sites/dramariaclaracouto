@@ -23,7 +23,7 @@ export interface Props {
   */
   textButton: string;
   /**
-   * @description Link Botão - Banner Principal
+   * @description Link Botão - Banner Principal 1
   */
   linkButton: string;
 }
