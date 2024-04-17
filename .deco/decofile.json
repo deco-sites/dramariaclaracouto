@@ -8,10 +8,33 @@
   },
   "Footer": {
     "__resolveType": "site/sections/Footer.tsx",
-    "links": [],
+    "links": [
+      {
+        "items": [
+          {
+            "label": "Botox",
+            "href": "/blog/botox"
+          }
+        ],
+        "title": "Procedimentos"
+      }
+    ],
     "bottomLinks": [],
     "social": [],
-    "subscribe": {}
+    "subscribe": {
+      "title": "Inscreva-se",
+      "description": "Faça parte da nossa newsletter",
+      "instructions": "<p>Em caso de cadastro, você aceita nossa Política de Privacidade.</p>"
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/00cc12eb-1fb1-4232-8322-45d0a50b1b83"
+    },
+    "madeWith": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/d5722658-27f6-488c-ba57-63520fa0a40c",
+      "label": "made by:",
+      "href": "https://www.websense.consulting/"
+    },
+    "copyright": "© 2024 Dra. Maria Clara Couto. All rights reserved."
   },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
