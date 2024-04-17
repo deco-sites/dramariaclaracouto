@@ -8,10 +8,33 @@
   },
   "Footer": {
     "__resolveType": "site/sections/Footer.tsx",
-    "links": [],
+    "links": [
+      {
+        "items": [
+          {
+            "label": "Botox",
+            "href": "/blog/botox"
+          }
+        ],
+        "title": "Procedimentos"
+      }
+    ],
     "bottomLinks": [],
     "social": [],
-    "subscribe": {}
+    "subscribe": {
+      "title": "Inscreva-se",
+      "description": "Faça parte da nossa newsletter",
+      "instructions": "<p>Em caso de cadastro, você aceita nossa Política de Privacidade.</p>"
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/00cc12eb-1fb1-4232-8322-45d0a50b1b83"
+    },
+    "madeWith": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/d5722658-27f6-488c-ba57-63520fa0a40c",
+      "label": "made by:",
+      "href": "https://www.websense.consulting/"
+    },
+    "copyright": "© 2024 Dra. Maria Clara Couto. All rights reserved."
   },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -99,8 +122,8 @@
     },
     "mainColors": {
       "base-100": "#ffffff",
-      "primary": "#171717",
-      "secondary": "#c7c7c7",
+      "primary": "#C7C7C7",
+      "secondary": "#171717",
       "tertiary": "#404040",
       "neutral": "#333333",
       "success": "#008060",
@@ -112,20 +135,53 @@
       "__resolveType": "website/loaders/fonts/googleFonts.ts",
       "fonts": [
         {
-          "variations": [],
-          "family": "Albert Sans"
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "300"
+            },
+            {
+              "weight": "600"
+            }
+          ],
+          "family": "\"Inter\", sans-serif"
+        },
+        {
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "600"
+            }
+          ],
+          "family": "\"Plus Jakarta Sans\", sans-serif"
         }
       ]
     }
   },
   "Preview /sections/BlogPost.tsx": {
-    "__resolveType": "site/sections/BlogPost.tsx"
+    "__resolveType": "site/sections/BlogPost.tsx",
+    "page": {
+      "@type": "BlogPostPage",
+      "post": {
+        "authors": [],
+        "categories": [],
+        "date": "2024-04-09",
+        "content": "<p></p>"
+      }
+    }
   },
   "Preview /sections/BlogPosts.tsx": {
     "__resolveType": "site/sections/BlogPosts.tsx",
     "posts": {
       "__resolveType": "blog/loaders/BlogpostList.ts",
       "count": 6
+    },
+    "cta": {
+      "text": "Procedimentos"
     }
   },
   "Preview /sections/Faq.tsx": {
@@ -137,6 +193,13 @@
     "links": [],
     "bottomLinks": [],
     "social": []
+  },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
+    }
   },
   "Preview /sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx",
@@ -314,7 +377,7 @@
       "excerpt": "A toxina botulínica é indicada para tratar rugas dinâmicas, aquelas causadas pelos movimentos faciais repetitivos, como sorrir, franzir a testa, levantar as sobrancelhas, entre outros.",
       "content": "<p><strong>Quais os benefícios do Botox?</strong></p><p>Quando utilizada em doses controladas e aplicada em pontos estratégicos do rosto, essa substância revela-se um aliado poderoso na redução de linhas de expressão e rugas. Sua ação visa relaxar temporariamente os músculos responsáveis por essas marcas, proporcionando uma aparência mais suave, descansada e jovial.</p><p><strong>&nbsp;</strong></p><p><strong>Benefícios adicionais</strong></p><p>Além de seus efeitos já conhecidos, a toxina botulínica oferece outros benefícios, como a prevenção da formação de novas rugas (Botox Preventivo) e a promoção de uma pele mais saudável e radiante (Skin Quality). Inclusive, esse impacto positivo na qualidade da pele, especialmente no que diz respeito à redução de poros e controle da oleosidade, tem sido reconhecido e amplamente apreciado.</p><p><strong><br><br></strong></p><p><strong>Como é a aplicação de Botox?</strong></p><p>A aplicação é feita usando-se uma agulha muito fina, após aplicação de anestesia tópica para maior conforto do paciente. O procedimento é rápido, praticamente indolor e não requer tempo de recuperação significativo, permitindo que você retorne às suas atividades diárias imediatamente.</p><p>Sempre priorizando sua segurança e bem-estar, utilizo produtos de alta qualidade e sigo padrões rigorosos de higiene.</p><p><strong>&nbsp;</strong></p><p><strong>Quais são os cuidados após a aplicação de botox?</strong></p><p>Após a aplicação de toxina botulínica (Botox), é importante seguir algumas orientações e cuidados para otimizar os resultados e minimizar o risco de complicações. Aqui estão alguns cuidados recomendados após o procedimento:</p><p><strong>&nbsp;</strong></p><ul><li><p>Evite esfregar ou massagear a área tratada: nas primeiras horas após a aplicação, evite tocar ou massagear a área tratada. Isso ajuda a evitar a migração da toxina para outras áreas.</p></li></ul><ul><li><p>Não faça atividade física intensa: evite atividades físicas intensas e exercícios vigorosos no dia da aplicação. Isso ajuda a reduzir o risco de hematomas e permite que a toxina se fixe adequadamente nos músculos.</p></li><li><p>Evite calor excessivo: evite banhos quentes, saunas e exposição prolongada ao sol no dia da aplicação.&nbsp;</p></li><li><p>Não consuma álcool em excesso: evite o consumo excessivo de álcool nas primeiras 24 horas após o procedimento, pois isso pode aumentar o risco de inchaço e hematomas.</p></li><li><p>Evite uso excessivo de maquiagem: evite aplicar maquiagem na área tratada imediatamente após o procedimento. Se necessário, aguarde algumas horas antes de aplicar maquiagem leve.</p></li><li><p>Siga as instruções do profissional: siga todas as instruções dadas pelo profissional de saúde que realizou o procedimento. Se surgirem quaisquer preocupações, como inchaço excessivo, vermelhidão persistente ou outros efeitos colaterais incomuns, entre em contato com o profissional.</p></li></ul><p><strong>&nbsp;</strong></p><p><strong>Em&nbsp; quanto tempo começa o efeito do Botox?</strong></p><p>Os resultados são visíveis em poucos dias (cerca de 2 a 3 dias). Após 15 a 20 dias, realizamos uma reavaliação para verificar a necessidade de complementação (retoque).&nbsp;</p><p><strong>&nbsp;</strong></p><p><strong>Quanto tempo dura o efeito do Botox?</strong></p><p>Os efeitos do Botox são temporários e geralmente duram de três a seis meses, dependendo da área tratada e do metabolismo do paciente. Após esse período, o tratamento pode ser repetido para manter os resultados.</p><p><strong>&nbsp;</strong></p><p><strong>O Botox é seguro?</strong></p><p>Sim, quando administrado por um profissional qualificado e experiente, o Botox é considerado seguro.&nbsp;</p><p><strong>&nbsp;</strong></p><p><strong>O Botox dói?</strong></p><p>A aplicação de Botox é relativamente indolor. Utilizo creme anestésico previamente à aplicação e massageador confort viber para minimizar qualquer desconforto durante o procedimento.</p><p><strong>&nbsp;</strong></p><p><strong>O Botox deixa uma aparência \"congelada\"?</strong></p><p>Quando realizado adequadamente, o Botox não deve causar uma aparência congelada. Um profissional experiente ajustará as doses para manter a expressão facial natural, suavizando as rugas sem comprometer a mobilidade.</p><p><strong>&nbsp;</strong></p><p><strong>Quais são as indicações do Botox?</strong></p><p>As principais queixas tratadas com a toxina botulínica são:</p><ul><li><p>Linhas de expressão na testa</p></li><li><p>Rugas ao redor dos olhos (pés de galinha)</p></li><li><p>Rugas entre as sobrancelhas (ruga do bravo)</p></li><li><p>Sorriso gengival</p></li><li><p>Sorriso triste</p></li><li><p>\"Celulite\" no queixo</p></li><li><p>Bruxismo</p></li><li><p>Nefertite e platisma (melhora do contorno do rosto)</p></li><li><p>Linhas do pescoço e colo</p></li><li><p>Rosácea&nbsp;</p></li><li><p>Hiperidrose (transpiração excessiva)</p></li><li><p>“Barbie Botox” (botox no músculo trapézio)</p></li></ul><p><strong>&nbsp;</strong></p><p><strong>Existe um momento certo para começar o tratamento com Botox?</strong></p><p>Não há um momento específico para começar o tratamento com Botox, isso vai variar individualmente. Pessoas muito expressivas devem considerar o tratamento preventivo (Botox preventivo) para evitar o surgimento precoce de rugas estáticas.</p><p><strong>&nbsp;</strong></p><p><strong>Quais são os possíveis efeitos colaterais do Botox?</strong></p><p>Efeitos colaterais podem incluir inchaço, vermelhidão ou hematomas no local da injeção, que geralmente desaparecem rapidamente. Complicações mais raras podem incluir ptose palpebral (queda da pálpebra) temporária.</p><p><strong>&nbsp;</strong></p><p><strong>O Botox trata todos os tipos de rugas?</strong></p><p>O Botox é mais eficaz para rugas dinâmicas, causadas pela movimentação repetitiva dos músculos faciais. Rugas estáticas, que são visíveis mesmo em repouso, podem necessitar de outros procedimentos, como preenchimento dérmico.</p><p><strong>&nbsp;</strong></p><p><strong>Existe alguma contraindicação ao uso de Botox?</strong></p><p>Embora o tratamento com toxina botulínica seja geralmente seguro e bem tolerado, existem algumas contraindicações e situações em que o procedimento pode não ser apropriado. É fundamental que um profissional de saúde qualificado avalie cada paciente individualmente antes de recomendar ou realizar o tratamento. Abaixo estão algumas das contraindicações para o uso do Botox:</p><p><strong>&nbsp;</strong></p><ul><li><p>Gravidez: mulheres grávidas são aconselhadas a evitar o uso de toxina botulínica, pois não há dados suficientes sobre a segurança do procedimento nesses casos.</p></li><li><p>Alergia à toxina botulínica: pacientes com histórico de reações alérgicas à toxina botulínica ou a qualquer componente do produto devem evitar o tratamento.</p></li><li><p>Infecções locais na área de injeção: se houver uma infecção ativa ou inflamação na área onde o Botox será administrado, o procedimento deve ser adiado até que a condição seja tratada e resolvida.</p></li><li><p>Doenças neuromusculares: pacientes com doenças neuromusculares, como miastenia gravis ou síndrome de Eaton-Lambert, não são candidatos ideais para o tratamento com Botox.</p></li><li><p>Uso de certos medicamentos: alguns medicamentos, como antibióticos aminoglicosídeos e medicamentos que interferem na transmissão neuromuscular, podem interagir com a toxina botulínica. É importante informar ao médico sobre todos os medicamentos em uso.</p></li></ul><p><strong>&nbsp;</strong></p><p><strong>Agende sua consulta:</strong></p><p>O Botox não é apenas uma ferramenta estética, mas uma solução dermatológica multifuncional que oferece resultados notáveis e melhorias na qualidade de vida. Ao explorar as possibilidades do Botox, estou não apenas trabalhando para realçar a beleza exterior, mas também promovendo saúde e bem-estar globais.</p><p><strong>&nbsp;</strong></p><p>Agende uma consulta para descobrir como o Botox pode ser uma parte valiosa de sua jornada dermatológica personalizada.</p><p>&nbsp;</p>",
       "date": "2024-04-10",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/e61c427c-9a90-4101-bb5c-4f79d111d59e",
       "title": "Botox",
       "slug": "botox"
     }
@@ -442,6 +505,19 @@
       }
     }
   },
+  "pages-Procedimentos-440219": {
+    "name": "Procedimentos",
+    "path": "/procedimentos",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "Preview /sections/BlogPosts.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-home-5afd25174424": {
     "name": "Home",
     "path": "/",
@@ -482,7 +558,7 @@
       },
       {
         "__resolveType": "site/sections/Atendimento.tsx",
-        "text": "<h2 class=\"home-title font-display\">MEU ATENDIMENTO</h2><div class=\"home-content font-display\"><strong>Você merece se sentir confiante, feliz e radiante em sua própria pele.</strong> E eu estou aqui para guiá-la nessa jornada de descoberta e cuidado, onde a beleza e o bem-estar se encontram. &nbsp;</div><div class=\"home-content font-display\">Acredito que a beleza vai além da superfície - ela está profundamente ligada ao seu bem-estar emocional e mental.</div><div class=\"home-content font-display\">Entendo que cada paciente é única, com necessidades e objetivos individuais. Não se trata apenas de resolver queixas relacionadas à pele, cabelos e unhas, mas de elevar a autoestima e melhorar a qualidade de vida.</div><div class=\"home-content font-display\">Nós sabemos o quanto a autoestima impacta em nossas atitudes e até mesmo nas relações interpessoais e é por isso que não se trata apenas de estética.</div>",
+        "text": "<h2 class=\"home-title font-display\">MEU ATENDIMENTO</h2><div class=\"home-content font-display\"><strong>Você merece se sentir confiante, feliz e radiante em sua própria pele.</strong> E eu estou aqui para guiá-la nessa jornada de descoberta e cuidado, onde a beleza e o bem-estar se encontram. &nbsp;</div><div class=\"home-content font-display\"><br data-mce-bogus=\"1\"></div><div class=\"home-content font-display\">Acredito que a beleza vai além da superfície - ela está profundamente ligada ao seu bem-estar emocional e mental.</div><div class=\"home-content font-display\">Entendo que cada paciente é única, com necessidades e objetivos individuais. Não se trata apenas de resolver queixas relacionadas à pele, cabelos e unhas, mas de elevar a autoestima e melhorar a qualidade de vida.</div><div class=\"home-content font-display\"><br data-mce-bogus=\"1\"></div><div class=\"home-content font-display\">Nós sabemos o quanto a autoestima impacta em nossas atitudes e até mesmo nas relações interpessoais e é por isso que não se trata apenas de estética.</div>",
         "imagem": [
           {
             "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/41a6c724-4e10-4042-bab4-fbde49a60525"
@@ -507,7 +583,8 @@
             "description": "meu foco é alcançar resultados que vão além da superfície da pele. Quero que você se sinta empoderada e confiante, com uma pele saudável que reflita a sua beleza única. Através de procedimentos cuidadosamente selecionados e orientações de cuidados com a pele.",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/3708bfa8-9d67-49c1-9fbc-8592353a882b"
           }
-        ]
+        ],
+        "imageHeader": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/106fcc6e-c45a-459a-ade5-4a65340027c1"
       },
       {
         "__resolveType": "site/sections/AgendaSuaConsulta.tsx"
@@ -532,21 +609,7 @@
         ]
       },
       {
-        "__resolveType": "site/sections/MainPost.tsx",
-        "post": {
-          "__resolveType": "blog/loaders/BlogPostItem.ts",
-          "slug": "why-we-web"
-        }
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx",
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "count": 6
-        }
-      },
-      {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
@@ -563,13 +626,13 @@
       }
     ],
     "seo": {
-      "titleTemplate": "%s | deco.cx",
-      "descriptionTemplate": "%s | Deco.cx",
+      "titleTemplate": "%s | Dra. Maria Clara Couto",
+      "descriptionTemplate": "%s | Dra. Maria Clara Couto",
       "type": "website",
       "title": "Blog",
-      "description": "Improve your page performance with deco.cx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/6684fd72-ed04-4132-9087-7523fdae8f37",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/8b67110d-de01-4e0a-9fe3-f178b9af56d5"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/6b5d69a4-d973-4570-b5bd-443024f23888",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/f8102556-d241-4e15-a50a-2dc95fc4bf65",
+      "description": "Jornada personalizada de dermatologia estética para realçar sua autoestima e bem-estar. Resultados visíveis, saúde da pele e atendimento humanizado. Agende sua consulta!"
     },
     "global": [
       {
@@ -583,22 +646,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "Preview /sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx",
-    "navigation": {
-      "links": [],
-      "buttons": []
-    }
-  },
-  "pages-Procedimentos-440219": {
-    "name": "Procedimentos",
-    "path": "/procedimentos",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
   }
 }
