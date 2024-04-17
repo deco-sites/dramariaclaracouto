@@ -18,7 +18,7 @@ export interface MapsContent {
     */
     linkMaps?: string;
     /**
-     * @description Telefone para contacto
+     * @description Telefone para contato
     */
     numberContact?: HTMLWidget
 }
