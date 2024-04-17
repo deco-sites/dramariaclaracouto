@@ -66,7 +66,7 @@ export default function Haader({
   },
 }: Nav) {
   return (
-    <nav class="container mx-auto lg:px-0 px-4">
+    <nav class="mx-auto lg:px-4 px-4 w-full bg-[#EAEBE6]">
       <div class="flex gap-8 items-center justify-between py-4">
         <a href="/">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
@@ -94,7 +94,7 @@ export default function Haader({
                   </li>
                 ))}
               </ul>
-              <ul class="flex items-center gap-3">
+              {/* <ul class="flex items-center gap-3">
                 {navigation.buttons?.map((item) => (
                   <a
                     key={item?.id}
@@ -108,12 +108,12 @@ export default function Haader({
                     {item?.text}
                   </a>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </div>
         </label>
 
-        <ul class="hidden items-center justify-between lg:flex w-full">
+        <ul class="hidden items-center justify-end lg:flex w-full">
           <ul class="flex">
             {navigation.links.map((link) => (
               <li>
@@ -127,7 +127,7 @@ export default function Haader({
               </li>
             ))}
           </ul>
-          <ul class="flex gap-3">
+          {/* <ul class="flex gap-3">
             {navigation.buttons?.map((item) => (
               <a
                 key={item?.id}
@@ -141,7 +141,7 @@ export default function Haader({
                 {item?.text}
               </a>
             ))}
-          </ul>
+          </ul> */}
         </ul>
       </div>
     </nav>

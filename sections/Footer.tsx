@@ -79,11 +79,11 @@ export default function Footer({
     },
   ],
   subscribe = {
-    title: "Subcribe",
+    title: "Inscreva-se",
     description:
-      "Join our newsletter to stay up to date on features and releases.",
+      "Cadastre-se em nosso boletim informativo para se manter atualizado sobre recursos e lançamentos.",
     instructions:
-      "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
+      "Ao se inscrever, você concorda com nossa Política de Privacidade e consente em receber atualizações de nossa empresa.",
   },
   madeWith = {
     label: "Made with",
@@ -105,8 +105,34 @@ export default function Footer({
     { network: "Youtube", href: "" },
   ],
 }: Props) {
+
+  const sendEmail = async () => {
+
+    const postInfo = {
+      headers: {
+        "Authorization": "Bearer re_123456789",
+        "Content-Type": "application/json"
+      },
+      method: "POST",
+      data: {
+        "cc": [],
+        "to": ["rodrigoaraujo.contact@gmail.com"],
+        "bcc": [],
+        "from": "onboarding@resend.dev",
+        "html": "<p>Congrats on sending your <strong>first email</strong>!</p><hr /><p style=\"color:#898989;font-size:12px;\">2261 Market Street #5039 - San Francisco, CA 94114</p>",
+        "tags": [],
+        "text": "Congrats on sending your first email!",
+        "subject": "Hello World"
+      }
+    }
+
+    await fetch("https://api.resend.com/emails", postInfo)
+    // .then((response))
+
+  }
+
   return (
-    <div class="lg:container lg:mx-auto md:max-w-6xl mx-4 pt-16 text-sm">
+    <div class="w-full px-4 lg:mx-auto mx-4 pt-16 text-sm bg-[#EAEBE6]" id="contato">
       <div class="flex flex-col gap-20">
         <div class="flex flex-col gap-6 justify-between lg:flex-row">
           <div>
@@ -139,11 +165,12 @@ export default function Footer({
               <div class="flex gap-4">
                 <input
                   type="text"
-                  placeholder="Enter your email"
+                  placeholder="Digite seu e-mail"
                   class="flex-auto input input-bordered input-primary"
+                  id="input-mail"
                 />
-                <button type="submit" class="btn btn-outline font-normal" aria-label="Subscribe">
-                  Subscribe
+                <button type="submit" class="btn btn-outline font-normal" aria-label="Subscribe" onClick={(e) => {sendEmail(), e.preventDefault()}}>
+                  Inscreva-se
                 </button>
               </div>
               <p

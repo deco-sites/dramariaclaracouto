@@ -111,11 +111,11 @@ export default function Benefits(
       {!layout?.variation || layout?.variation === "Simple"
         ? (
           <div class="w-full px-4 py-8 flex flex-row  lg:py-10 lg:px-0 bg-gradient-to-r from-[#EAEBE6] to-[#DACABE] max-[1020px]:flex-col">
-            <Header
+            {/* <Header
               title={title}
               description={description}
               alignment={layout?.headerAlignment || "center"}
-            />
+            /> */}
             <div class="w-full flex justify-center container">
               <div class="flex flex-row gap-4 lg:gap-8 w-full lg:grid grid-flow-col auto-cols-fr text-[#383838] items-center max-[1020px]:flex-col">
                 {listOfBenefits}
