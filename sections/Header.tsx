@@ -66,11 +66,7 @@ export default function Haader({
   },
 }: Nav) {
   return (
-<<<<<<< HEAD
     <nav class="mx-auto lg:px-4 px-4 w-full bg-[#EAEBE6]">
-=======
-    <nav class="container mx-auto lg:px-0 px-4 bg-[#EAEBE6]">
->>>>>>> refs/remotes/origin/main
       <div class="flex gap-8 items-center justify-between py-4">
         <a href="/">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />

@@ -1,21 +1,15 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx"
+import type { ImageWidget } from "apps/admin/widgets.ts";
 
-
-export interface Banner {
-    srcDesktop?: ImageWidget;
-    /**
-     * @description Image alt text
-     */
-    alt?: string;
-    srcMobile?: ImageWidget
+export interface BannerPrincipal {
+  srcDesktop?: ImageWidget;
 }
 
 export interface Props {
   /**
    * @description Imagem do Banner
   */
-  banner: Banner;
+  banner: BannerPrincipal;
   /**
    * @description Título h1 - Banner Principal
   */
@@ -34,26 +28,15 @@ export interface Props {
   linkButton: string;
 }
 
-const DEFAULT_PROPS: Props = {
-  banner: {
-      srcDesktop: 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7b3a9d75-57a5-43cf-a3c5-f689a997f24e',
-      alt: 'Dra. Maria Clara Couto',
-      srcMobile: 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7b3a9d75-57a5-43cf-a3c5-f689a997f24e'
-  },
-  titleH1: 'Sua jornada para uma pele incrível e confiança renovada começa aqui',
-  textBanner: 'Explore a sua própria beleza através de cuidados personalizados',
-  textButton: 'Quero agendar minha consulta!',
-  linkButton: '#'
-}
-
-export default function newBanner( props: Props ) {
+export default function bannerMainNew( props: Props ) {
   const {
-    banner = {},
-    titleH1,
-    textBanner,
-    textButton,
-    linkButton
-  } = { ...DEFAULT_PROPS, ...props }
+    banner = { srcDesktop: 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7b3a9d75-57a5-43cf-a3c5-f689a997f24e' },
+    titleH1 = '',
+    textBanner = '',
+    textButton = '',
+    linkButton = ''
+  } = { ...props }
+
 
   return (
     <section class="flex items-start justify-around w-[80%] mx-auto max-[1440px] xl:mb-[110px] 2xl:mb-[145px] bg-[#353535] max-[1020px]:flex-col max-[1020px]:mb-[20px] max-[1020px]:w-[95%] max-[1020px]:mx-auto max-[1020px]:justify-start">
@@ -77,14 +60,12 @@ export default function newBanner( props: Props ) {
         <Picture class="">
           <Source
             media="(min-width: 768px)"
-            src={banner[0].srcDesktop}
-            alt={banner[0].alt}
+            src={banner.srcDesktop}
             height={500}
           />
           <img
-            class="w-[135%] absolute top-[-80px] right-[-150px] block max-w-[1003px] 2xl:w-[125%] 2xl:top-[-100px] max-[1020px]:w-[150%] max-[1020px]:top-[0] max-[1020px]:right-0 max-[1020px]:left-[-186px] max-[1366px]:top-[-50px] max-[1020px]:relative"
-            src={banner[0].srcDesktop}
-            alt={banner[0].alt}
+            class="w-[135%] absolute top-[-80px] right-[-150px] block max-w-[1003px] 2xl:w-[125%] 2xl:top-[-100px] max-[1020px]:w-[150%] max-[1020px]:top-[0] max-[1020px]:right-0 max-[1020px]:left-[-186px] max-[1366px]:top-[-35px] max-[1020px]:relative min-[1399px]:w-[109%] min-[1399px]:top-0 max-[1370px]:w-[121%]"
+            src={banner.srcDesktop}
             decoding="async"
             loading="lazy"
           />
