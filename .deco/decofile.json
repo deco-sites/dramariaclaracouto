@@ -539,11 +539,11 @@
         "__resolveType": "site/sections/Benefits.tsx",
         "benefits": [
           {
-            "label": "Cuidado Personalizado e Humanizado",
+            "label": "Cuidado personalizado e humanizado",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/ddd8fef5-732b-447d-9e7c-01aebab064e5"
           },
           {
-            "label": " Experiência e atendimento Diversificados",
+            "label": "Expertise em cada tratamento",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/8ad5b069-c9ae-4589-a906-26e539d26793"
           },
           {
