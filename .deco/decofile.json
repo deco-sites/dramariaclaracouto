@@ -560,7 +560,7 @@
       },
       {
         "__resolveType": "site/sections/AgendaSuaConsulta.tsx",
-        "buttonContent": "<p><a href=\"https://wa.me/5511933058210\" target=\"_blank\" class=\"font-display mx-auto my-[25px] text-center w-[25%] block text-[20px] p-[15px] rounded-[8px] bg-gradient-to-r from-[#DBCABE] to-[#A58C7B] shadow-lg text-[#FFFFFF] max-[1020px]:w-[80%]\" rel=\"noopener\" data-mce-href=\"https://wa.me/5511933058210\" data-mce-selected=\"inline-boundary\">﻿AGENDE SUA CONSULTA!</a></p>"
+        "buttonContent": "<p><a class=\"primary-button-home font-display mx-auto my-[25px] text-center w-[25%]  max-[1020px]:w-[80%]\" href=\"https://wa.me/5511933058210\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://wa.me/5511933058210\" data-mce-selected=\"inline-boundary\">﻿AGENDE SUA CONSULTA!</a></p>"
       },
       {
         "__resolveType": "site/sections/Location.tsx",
