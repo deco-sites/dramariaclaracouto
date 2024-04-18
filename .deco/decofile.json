@@ -504,8 +504,8 @@
         },
         "titleH1": "Sua jornada para uma pele incrível e confiança renovada começa aqui",
         "textBanner": "Explore a sua própria beleza através de cuidados personalizados",
-        "textButton": "Quero agendar minha consulta! &#xF618;",
-        "linkButton": "#"
+        "textButton": "Quero agendar minha consulta!",
+        "linkButton": "https://wa.me/5511933058210"
       },
       {
         "__resolveType": "site/sections/Benefits.tsx",
