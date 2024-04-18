@@ -169,7 +169,7 @@ export default function Footer({
                   class="flex-auto input input-bordered input-primary"
                   id="input-mail"
                 />
-                <button type="submit" class="btn btn-outline font-normal" aria-label="Subscribe" onClick={(e) => {sendEmail(), e.preventDefault()}}>
+                <button type="submit" class="btn btn-outline font-normal" aria-label="Subscribe">
                   Inscreva-se
                 </button>
               </div>
