@@ -204,6 +204,18 @@ body {
   text-transform: uppercase;
 }
 
+.primary-button-home:last-of-type {
+  width: 400px;
+  margin-top: 15px;
+  margin: 25px auto 30px;
+}
+
+@media screen and (max-width: 1020px) {
+  .primary-button-home:last-of-type {
+    width: 80%;
+  }
+}
+
 .primary-button-home:hover {
   -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
   box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
