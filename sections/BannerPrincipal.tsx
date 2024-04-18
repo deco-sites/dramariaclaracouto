@@ -39,7 +39,7 @@ export default function bannerMainNew( props: Props ) {
 
 
   return (
-    <section class="flex items-start justify-around w-[80%] mx-auto max-[1440px] xl:mb-[110px] 2xl:mb-[145px] bg-[#353535] max-[1020px]:flex-col max-[1020px]:mb-[20px] max-[1020px]:w-[95%] max-[1020px]:mx-auto max-[1020px]:justify-start lg:pt-[40px]">
+    <section class="flex items-start justify-around w-[80%] mx-auto max-[1440px] xl:mb-[110px] 2xl:mb-[145px] bg-[#353535] max-[1020px]:flex-col max-[1020px]:mb-[20px] max-[1020px]:w-[95%] max-[1020px]:mx-auto max-[1020px]:justify-start lg:pt-[40px] min-[1440px]:mb-[25px]">
       <div class="w-[40%] mt-[10%] max-[1020px]:w-full max-[1020px]:mt-[0] max-[1020px]:z-[2] max-[1020px]:order-2">
         <h1 class="font-display font-[900] text-[45px] leading-[50px] text-[#EAEBE6] block mb-[10px] max-[1020px]:text-[30px] max-[150px]:leading-[25px] max-[1020px]:mt-[0]">
           {titleH1}
@@ -47,14 +47,14 @@ export default function bannerMainNew( props: Props ) {
         <p class="font-body text-[30px] font-[300] leading-[40px] text-[#EAEBE6] block mb-[10px] max-[1020px]:text-[20px]">
           {textBanner}
         </p>
-        {/* <a
+        <a
           href={linkButton}
           target="_blank"
           rel="noopener noreferrer"
-          class="bg-[#D5C9BD] w-[65%] text-[#1E1A1A] px-[15px] py-[15px] mt-[10px] block text-center font-body text-[15px] font-[400] rounded-[8px] max-[1020px]:text-[13px]"
+          class="bg-[#D5C9BD] w-[65%] text-[#1E1A1A] px-[15px] py-[15px] mt-[10px] block text-center font-body text-[15px] font-[400] rounded-[8px] max-[1020px]:text-[13px] primary-button-home max-[1020px]:ml-0"
         >
           {textButton}
-        </a> */}
+        </a>
       </div>
       <div class="w-[60%] relative max-[1020px]:z-1 max-[1020px]:order-1 max-[1020px]:relative max-[1020px]:w-full">
         <Picture class="">
