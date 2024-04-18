@@ -68,8 +68,8 @@ export default function RichText(props: Props) {
           >
         </iframe> */}
         <address class="flex flex-col address-text">
-          <p><a href={mapa.linkMaps}></a>{mapa.addressInfo}</p>
           <p><b>{mapa.funcionalDay}</b></p>
+          <p><a href={mapa.linkMaps} target="_blank">{mapa.addressInfo}</a></p>
           <p>{mapa.timeDay}</p>
           <p
             dangerouslySetInnerHTML={{ __html: mapa.numberContact }}

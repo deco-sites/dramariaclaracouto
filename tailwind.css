@@ -182,3 +182,40 @@ body {
     top: 0.9rem;
   }
 }
+
+.primary-button-home {
+  /* height: 50px; */
+  margin: 5px;
+  width: 100%;
+  background: #333;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  border: solid #404c5d 1px;
+  font-size: 16px;
+  color: #000;
+  transition: 500ms;
+  font-weight: bold;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #D5C9BD, #d0baa4);
+  box-shadow: -1px -5px 15px #D5C9BD, 5px 5px 15px #D5C9BD, inset 5px 5px 10px #ccc7c7, inset -5px -5px 10px #ccc7c7;
+  margin-top: 30px;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.primary-button-home:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #333;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.primary-button-home:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  color: #333;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
