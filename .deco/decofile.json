@@ -665,5 +665,8 @@
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "analytics": {
+    "__resolveType": "decohub/apps/analytics.ts"
   }
 }
