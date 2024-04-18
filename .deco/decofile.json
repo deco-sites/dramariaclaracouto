@@ -554,7 +554,7 @@
       },
       {
         "__resolveType": "site/sections/SobreMim.tsx",
-        "text": "<h2 class=\"home-title font-display\">QUEM SOU EU</h2><p class=\"home-content font-display\">Minha relação com a Medicina começou cedo<strong>.</strong> Quando criança, ao ser questionada sobre o que seria na vida adulta não hesitava ao responder: \"Médica\". Essa paixão fez com que eu conquistasse meu diploma aos 22 anos, em minha cidade natal, Campo Grande, Mato Grosso do Sul. Mas minha jornada estava apenas começando.<br></p><p class=\"home-content font-display\">Determinada em me aprofundar nessa área que é uma das mais complexas e multifacetadas da Medicina, a Dermatologia, decidi me mudar para São Paulo, o epicentro da inovação médica no Brasil, onde me dediquei intensamente à minha especialização.﻿</p>"
+        "text": "<h2 class=\"home-title font-display\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\">QUEM SOU EU</span></h2><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Minha relação com a Medicina começou cedo. Quando criança, ao ser questionada sobre o que seria na vida adulta não hesitava ao responder: \"Médica\". Essa paixão fez com que eu conquistasse meu diploma aos 22 anos, em minha cidade natal, Campo Grande, Mato Grosso do Sul. Mas minha jornada estava apenas começando.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Determinada em me aprofundar nessa área que é uma das mais complexas e multifacetadas da Medicina, a Dermatologia, decidi me mudar para São Paulo, o epicentro da inovação médica no Brasil, onde me dediquei intensamente à minha especialização.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Meu estilo de abordagem compassiva e focada no bem-estar integral dos indivíduos me levou a sempre trabalhar incansavelmente para elevar a autoestima e a confiança de cada paciente que cruzou meu caminho.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Minha história profissional é marcada por aprendizado, paixão e comprometimento com a Dermatologia Integrativa e cada vez mais tenho a certeza de que minha missão é promover a saúde da pele e o bem-estar de todos os meus pacientes.&nbsp;</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Desejo continuar fazendo a diferença na vida de cada um de vocês.</span></p>"
       },
       {
         "__resolveType": "site/sections/Atendimento.tsx",
@@ -587,24 +587,27 @@
         "imageHeader": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/106fcc6e-c45a-459a-ade5-4a65340027c1"
       },
       {
-        "__resolveType": "site/sections/AgendaSuaConsulta.tsx"
+        "__resolveType": "site/sections/AgendaSuaConsulta.tsx",
+        "buttonContent": "<p><a href=\"https://wa.me/5511933058210\" target=\"_blank\" class=\"font-display mx-auto my-[25px] text-center w-[25%] block text-[20px] p-[15px] rounded-[8px] bg-gradient-to-r from-[#DBCABE] to-[#A58C7B] shadow-lg text-[#FFFFFF] max-[1020px]:w-[80%]\" rel=\"noopener\" data-mce-href=\"https://wa.me/5511933058210\" data-mce-selected=\"inline-boundary\">﻿AGENDE SUA CONSULTA!</a></p>"
       },
       {
         "__resolveType": "site/sections/Location.tsx",
         "mapsContent": [
           {
             "linkIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.627225387751!2d-46.64589272456288!3d-23.54590637881036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce584d956dbb39%3A0x24b586fc829027dc!2sUse%20Org%C3%A2nico%20%7C%20Aromaterapia%20e%20Cosm%C3%A9ticos%20Veganos%2C%20Naturais%20e%20Org%C3%A2nicos!5e0!3m2!1spt-BR!2sbr!4v1706989077921!5m2!1spt-BR!2sbr",
-            "funcionalDay": "Segunda à sexta-feira",
-            "timeDay": "08:00h - 22:00h",
-            "addressInfo": "Av. xxxxxx, 754 - Sala 621 - MT, CEP Localizado em: FICTICIO",
-            "numberContact": "<p><a href=\"tel:+5571999999999\" data-mce-href=\"tel:+5571999999999\" data-mce-selected=\"inline-boundary\">﻿Agendamento de Consultas: Celular: (xx) xxxxxxxxx</a></p>"
+            "funcionalDay": "Campo Grande - MS",
+            "timeDay": "Horário de atendimento: 08:00h - 18:00h",
+            "addressInfo": "Rua Mar Cáspio, 271 - Chácara Cachoeira, Campo Grande - MS, CEP 79040-080",
+            "numberContact": "<p><a href=\"https://wa.me/5511933058210\" data-mce-href=\"https://wa.me/5511933058210\" data-mce-selected=\"inline-boundary\">﻿Agendamento de Consultas: WhatsApp: (11) 933058210</a></p>",
+            "linkMaps": "https://maps.app.goo.gl/dAEUaA3XXC3cWfeu7"
           },
           {
             "linkIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58522.03803015663!2d-46.68451753299137!3d-23.54590093284803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5912b4e8f6dd%3A0xf3b910ad3b0e5bdb!2sCasas%20Bahia!5e0!3m2!1spt-BR!2sbr!4v1706990020202!5m2!1spt-BR!2sbr",
-            "funcionalDay": "Segunda à sexta-feira",
-            "timeDay": "08:00h - 22:00h",
-            "addressInfo": "Av. xxxxxx, 754 - Sala 621 - MT, CEP Localizado em: FICTICIO",
-            "numberContact": "<p><a href=\"tel:+5571999999999\" data-mce-href=\"tel:+5571999999999\" data-mce-selected=\"inline-boundary\">﻿Agendamento de Consultas: Celular: (xx) xxxxxxxxx</a></p>"
+            "funcionalDay": "São Paulo - SP",
+            "timeDay": "Horário de atendimento: 08:00h - 20:00h",
+            "addressInfo": "Av. Angélica, 2491 - 9° andar - Bela Vista, São Paulo - SP, CEP 01227-200",
+            "numberContact": "<p><a href=\"https://wa.me/5511933058210\" data-mce-href=\"https://wa.me/5511933058210\" data-mce-selected=\"inline-boundary\">﻿Agendamento de Consultas: WhatsApp: (11) 933058210</a></p>",
+            "linkMaps": "https://maps.app.goo.gl/MNiwgUdcwRTUnDBeA"
           }
         ]
       },
