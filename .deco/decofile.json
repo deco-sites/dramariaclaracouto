@@ -722,5 +722,125 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "collections/blog/posts/ab78abba8429": {
+    "name": "collections/blog/posts/ab78abba8429",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Tratamentos",
+          "slug": "tratamentos"
+        }
+      ],
+      "title": "Acne: O que é, sintomas, tratamentos e causas.",
+      "date": "2024-04-19",
+      "slug": "Acne",
+      "content": "<p><span style=\"color: #fcfcfc\">Graus de Acne:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Acne Grau I: presença apenas de comedões (cravos) abertos e fechados, em especial na testa, nariz e queixo, conhecida como zona T. Ausência de lesões inflamatórias (espinhas).</span></p><p><span style=\"color: #fcfcfc\">Acne Grau II: além dos comedões, inclui pápulas (lesões elevadas sem pus) e pústulas (lesões com pus).</span></p><p><span style=\"color: #fcfcfc\">Acne grau III: presença de nódulos e cistos.</span></p><p><span style=\"color: #fcfcfc\">Acne Grau IV: lesões císticas maiores que podem se interconectar pela pele, formando “túneis”. Nódulos grandes e muitas vezes dolorosos. Pode levar a cicatrizes permanentes.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">As causas podem incluir:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Hormônios: alterações hormonais, comuns durante a adolescência e período menstrual aumentam a produção sebácea.</span></p><p><span style=\"color: #fcfcfc\">Genética: predisposição genética pode influenciar na propensão à acne.</span></p><p><span style=\"color: #fcfcfc\">Bactérias: a presença de Cutibacterium acnes nas glândulas sebáceas contribui para os quadros inflamatórios.</span></p><p><span style=\"color: #fcfcfc\">Obstrução dos poros: acúmulo de células mortas da pele e sebo obstrui os poros, propiciando o surgimento da acne.</span></p><p><span style=\"color: #fcfcfc\"><br><br></span></p><p><span style=\"color: #fcfcfc\">Existem diversos tratamentos para acne. Uma consulta com um dermatologista é sempre indicada para se saber qual a melhor opção para cada caso.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Independentemente do grau da acne e do tratamento escolhido, cuidados gerais diários são fundamentais. Podemos citar de maneira geral: higienização da pele, remoção diária da maquiagem e uso de produtos não comedogênicos (incluindo o protetor solar).&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Já o tratamento medicamentoso varia de acordo com a gravidade do caso e o tipo de pele. Inclui opções como:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Cremes de uso tópico incluindo ativos como ácido salicílico, ácido azelaico, retinoides (ácido retinoico, adapaleno) e peróxido de benzoila: prescritos pelo dermatologista, auxiliam na desobstrução dos poros e reduzem o processo inflamatório.</span></p><p><span style=\"color: #fcfcfc\">Antibióticos orais ou tópicos: diminuem a quantidade de bactérias contidas no interior dos folículos e podem auxiliar na diminuição da inflamação.&nbsp;</span></p><p><span style=\"color: #fcfcfc\">Medicamentos que reduzem os efeitos de hormônios andrógenos (“masculinos”).</span></p><p><span style=\"color: #fcfcfc\">Isotretinoína: medicação oral indicada para casos mais graves, que não respondem a outros tratamentos ou em casos de recidiva.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Procedimentos dermatológicos: peelings químicos, microdermoabrasão, alguns tipos de lasers e luzes, drenagem de abscessos, infiltração com corticóides em lesões nodulares muito inflamadas ou em cicatrizes elevadas, entre outros.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Cuidados Preventivos:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Evite espremer as lesões: a manipulação pode agravar a inflamação e levar a cicatrizes.</span></p><p><span style=\"color: #fcfcfc\">Alimentação balanceada: consuma uma dieta nutritiva, evite lácteos e alimentos de alto índice glicêmico.</span></p><p><span style=\"color: #fcfcfc\">Proteção solar: use protetor solar diariamente para prevenir manchas.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Consulta Dermatológica:</span></p><p><span style=\"color: #fcfcfc\">Marque uma consulta para uma avaliação personalizada e recomendações específicas para o seu tipo de pele e gravidade da acne.</span></p><p><span style=\"color: #fcfcfc\">Entender as causas e adotar uma abordagem abrangente e integrativa no cuidado da pele é essencial para controlar a acne e proporcionar resultados duradouros, restaurando a saúde e a beleza da sua pele.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p>",
+      "excerpt": "A acne pode se manifestar em diferentes graus, desde cravos (comedões), espinhas até lesões inflamatórias mais graves. Entender os graus de acne, suas causas e opções de tratamento é fundamental para conquistar uma pele linda, saudável e radiante."
+    }
+  },
+  "collections/blog/posts/bae6315763d5": {
+    "name": "collections/blog/posts/bae6315763d5",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Tratamentos",
+          "slug": "tratamentos"
+        }
+      ],
+      "date": "2024-04-19",
+      "slug": "foliculite",
+      "excerpt": "A foliculite é uma condição comum da pele que ocorre quando os folículos pilosos se inflamam, podendo causar desconforto local, surgimento de manchas e queixas estéticas. ",
+      "title": "Foliculite: o que é, tipos, sintomas, causas e tratamento",
+      "content": "<p><span style=\"color: #faf9f9\">Principais causas da foliculite:</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Bactérias: infecções bacterianas, especialmente pelo Staphylococcus aureus, são uma causa comum de foliculite. Estas podem ocorrer devido a cortes, feridas ou atrito constante na pele.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Fungos: certos tipos de fungos, como os do gênero Malassezia, podem infectar os folículos pilosos, levando ao desenvolvimento de foliculite, especialmente em áreas como o couro cabeludo.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Depilação e barbear: a remoção de pelos através de métodos como depilação com cera, lâmina ou aparelhos de barbear pode aumentar o risco de foliculite, especialmente se houver uma técnica inadequada.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Opções de tratamento para foliculite:</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Medicamentos tópicos: antissépticos e antibióticos tópicos podem ser prescritos para reduzir a inflamação e combater a infecção bacteriana associada à foliculite.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Medicamentos orais: em casos mais graves ou recorrentes de foliculite, antibióticos orais podem ser necessários para controlar a infecção.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Cuidados locais: evitar a remoção agressiva de pelos, manter a pele limpa e seca, e evitar roupas apertadas pode ajudar a prevenir e reduzir a foliculite.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Cuidados gerais para prevenir e gerenciar a foliculite:</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Mantenha a pele limpa: lave suavemente a área afetada com um sabonete suave para remover impurezas e bactérias.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Evite atrito e irritação: evite roupas apertadas, que possam causar atrito excessivo na pele, e opte por tecidos respiráveis para permitir uma melhor circulação de ar.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Use instrumentos limpos: ao depilar ou barbear, certifique-se de usar instrumentos limpos e afiados para evitar cortes e reduzir o risco de infecções.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Consulte um dermatologista: se você notar sintomas de foliculite persistente, como vermelhidão, inchaço ou pus ao redor dos folículos pilosos, agende uma consulta com um dermatologista para um diagnóstico preciso e tratamento adequado.</span></p><p><span style=\"color: #faf9f9\"><br></span></p><p><span style=\"color: #faf9f9\">Para mais informações sobre foliculite e outros serviços dermatológicos que oferecemos, entre em contato conosco hoje mesmo. Estamos aqui para ajudar você a alcançar uma pele saudável e radiante.</span></p><p><span style=\"color: #faf9f9\"><br></span></p>"
+    }
+  },
+  "collections/blog/posts/9bb9fcc01e49": {
+    "name": "collections/blog/posts/9bb9fcc01e49",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Tratamentos",
+          "slug": "tratamentos"
+        }
+      ],
+      "date": "2024-04-19",
+      "content": "<p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Principais causas da queda de cabelo:</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Fatores genéticos (calvície hereditária): a alopecia androgenética é a forma mais comum de queda de cabelo, influenciada pela genética e hormônios. Homens e mulheres podem ser afetados por padrões de perda capilar específicos.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Alterações hormonais: desequilíbrios hormonais, como os ocorridos durante a gravidez, menopausa ou distúrbios da tireoide, podem desencadear a queda de cabelo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Estresse: situações estressantes podem desencadear a queda excessiva de cabelo, devido à liberação de hormônios como o cortisol, que podem afetar o ciclo de crescimento do cabelo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Problemas de Saúde: Condições médicas como alopecia areata, doenças autoimunes, infecções do couro cabeludo e deficiências nutricionais podem contribuir para a queda de cabelo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Tipos de queda de cabelo mais comuns:</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Alopecia androgenética: caracterizada por afinamento progressivo e perda de cabelo nos padrões masculino e feminino.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Alopecia areata: uma condição autoimune que resulta em perda de cabelo em áreas específicas do couro cabeludo ou do corpo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Eflúvio telógeno: a queda abrupta e excessiva de cabelo devido a eventos como parto, cirurgia, estresse extremo ou doenças subjacentes.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Alopecia de tração: uma forma de queda de cabelo causada por danos permanentes ao folículo piloso, resultando em cicatrizes.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Opções de tratamento e procedimentos:</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Medicamentos tópicos e orais: suplementação de vitaminas e minerais, além de minoxidil e finasterida são exemplos de tratamentos que podem ajudar a estimular o crescimento capilar.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Tratamentos dermatológicos: procedimentos como mesoterapia capilar, microagulhamento e MMP podem ser recomendados para estimular o crescimento capilar e melhorar a saúde do couro cabeludo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Em conclusão, a queda de cabelo é uma preocupação comum, mas tratável, com uma abordagem personalizada que considera as causas subjacentes e as necessidades individuais de cada paciente. Como dermatologista, estou comprometida em oferecer soluções eficazes e seguras para ajudar meus pacientes a recuperarem a confiança em sua aparência capilar e sua saúde geral.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Para marcar uma consulta ou saber mais sobre nossos serviços de tratamento capilar, entre em contato conosco. Sua jornada para cabelos mais saudáveis e densos começa aqui!</span></p><p><span style=\"color: #ffffff\"><br></span></p>",
+      "slug": "saiba-o-que-causa-a-queda-de-cabelo-e-como-tratar",
+      "excerpt": " A queda de cabelo é uma preocupação comum que afeta homens e mulheres em diferentes estágios da vida. Compreender as causas subjacentes, os tipos de queda de cabelo e as opções de tratamento é essencial na recuperação da saúde capilar. ",
+      "title": "Saiba o que causa a queda de cabelo e como tratar"
+    }
+  },
+  "collections/blog/posts/50f9a4d85e60": {
+    "name": "collections/blog/posts/50f9a4d85e60",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Tratamentos",
+          "slug": "tratamentos"
+        }
+      ],
+      "date": "2024-04-19",
+      "slug": "dermatite",
+      "excerpt": "As dermatites são condições inflamatórias da pele que podem causar desconforto e irritação. Como dermatologista, compreendo a importância de fornecer informações abrangentes sobre os diferentes tipos de dermatite, suas causas, opções de tratamento e cuidados gerais para ajudar meus pacientes a lidarem com essa condição. Continue lendo para saber mais.",
+      "content": "<p><span style=\"color: #fafafa\">Tipos de Dermatites:</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Dermatite atópica: também conhecida como eczema, é uma condição crônica caracterizada por pele seca, coceira intensa e erupções cutâneas. Pode ser desencadeada por fatores genéticos, alergias e irritantes ambientais.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Dermatite de contato: surge quando a pele entra em contato com substâncias irritantes ou alérgenos, como produtos químicos, metais, plantas, cosméticos ou tecidos.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Dermatite seborreica: caracterizada por descamação, vermelhidão e oleosidade, afeta principalmente áreas ricas em glândulas sebáceas, como o couro cabeludo (caspa), rosto e orelhas.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Dermatite de estase: ocasionada por má circulação sanguínea, geralmente afeta as pernas, causando inchaço, coceira e vermelhidão.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Principais causas das dermatites:</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Genética: Predisposição genética desempenha um papel importante na dermatite atópica e em algumas outras formas de dermatite.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Reações Alérgicas: Contato com substâncias alérgenas, como detergentes, cosméticos ou certos alimentos, pode desencadear dermatites de contato ou alérgicas.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Irritantes Ambientais: Exposição a agentes irritantes, como produtos químicos, tecidos ásperos ou clima seco, pode desencadear ou agravar episódios de dermatite.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Estresse: O estresse emocional pode desencadear ou piorar sintomas de dermatite, especialmente na dermatite atópica.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Opções de Tratamentos para Dermatites:</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Corticosteroides Tópicos: São frequentemente prescritos para reduzir a inflamação e aliviar os sintomas de coceira e vermelhidão.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Emolientes e Hidratantes: O uso regular de cremes emolientes e hidratantes pode ajudar a manter a pele hidratada e reduzir a irritação em casos de dermatite seca.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Antihistamínicos: Podem ser prescritos para ajudar a aliviar a coceira e a reduzir a resposta alérgica em casos de dermatite alérgica.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Evitar Gatilhos: Identificar e evitar substâncias ou situações que desencadeiem ou agravem a dermatite é essencial para o controle da condição.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Cuidados Gerais para Dermatites:</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Evitar Banhos Quentes: Banhos ou chuveiros com água quente podem ressecar a pele, piorando os sintomas de dermatite. Opte por água morna e evite esfregar a pele vigorosamente.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Usar Produtos Suaves: Opte por sabonetes suaves e sem fragrância, produtos de limpeza não irritantes e tecidos macios para evitar irritações adicionais na pele.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Manter a Pele Hidratada: Use regularmente cremes emolientes e hidratantes para manter a pele bem hidratada e protegida.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Consulte um Dermatologista: Se você está lutando com sintomas persistentes de dermatite, agende uma consulta com um dermatologista qualificado para um diagnóstico preciso e um plano de tratamento adequado.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Em conclusão, as dermatites são condições comuns da pele que podem ser tratadas e gerenciadas com uma combinação de cuidados adequados, tratamentos médicos e evitar gatilhos conhecidos. Se você está sofrendo com dermatite, não hesite em procurar orientação de um dermatologista experiente para obter o cuidado necessário e restaurar a saúde da sua pele.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Para mais informações sobre dermatites e outros serviços dermatológicos que oferecemos, entre em contato conosco hoje mesmo. Estamos aqui para ajudar você a alcançar uma pele saudável e confortável.</span></p><p><span style=\"color: #fafafa\"><br></span></p>",
+      "title": "Dermatite: O que é, sintomas, tratamentos e causas"
+    }
+  },
+  "collections/blog/posts/ed11a8cf6798": {
+    "name": "collections/blog/posts/ed11a8cf6798",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Tratamentos",
+          "slug": "tratamentos"
+        }
+      ],
+      "title": "Micose: o que é, sintomas, causas, tipos e tratamento",
+      "excerpt": "As micoses são infecções causadas por fungos que prosperam especialmente em ambientes quentes e úmidos. Estes microrganismos podem invadir a pele, unhas e cabelos, resultando em uma variedade de condições dermatológicas. Conhecer as diferentes formas de micoses é essencial para um diagnóstico preciso e tratamento eficaz.",
+      "date": "2024-04-18",
+      "slug": "micose ",
+      "content": "<p><span style=\"color: #f8f7f7\">Três exemplos de micoses extremamente comuns em nosso dia a dia são a onicomicose (micose de unha), a tinea pedis (frieira) e a pitiríase versicolor (popularmente conhecida como “pano branco”).&nbsp;</span></p><p><span style=\"color: #f8f7f7\">Os principais fatores de risco para o desenvolvimento de micoses compreendem:</span></p><p><span style=\"color: #f8f7f7\">Umidade e calor: ambientes úmidos favorecem o crescimento de fungos.</span></p><p><span style=\"color: #f8f7f7\">Contato prolongado com água: atividades que envolvam exposição prolongada à água podem aumentar o risco.</span></p><p><span style=\"color: #f8f7f7\">Imunossupressão: sistemas imunológicos enfraquecidos tornam o organismo mais suscetível.</span></p><p><span style=\"color: #f8f7f7\"><br></span></p><p><span style=\"color: #f8f7f7\">O tratamento se baseia no uso de antifúngicos tópicos e/ou orais prescritos para combater a infecção.</span></p><p><span style=\"color: #f8f7f7\"><br></span></p><p><span style=\"color: #f8f7f7\">Consulte um Dermatologista:</span></p><p><span style=\"color: #f8f7f7\">Se você suspeita de uma infecção fúngica, é crucial consultar um dermatologista para um diagnóstico preciso e um plano de tratamento personalizado.</span></p><p><span style=\"color: #f8f7f7\"><br></span></p>"
+    }
   }
 }
