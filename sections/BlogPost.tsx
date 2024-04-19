@@ -114,7 +114,7 @@ function SocialIcons() {
 export default function BlogPost({ page }: Props) {
   const { title, authors, image, date, content } = page?.post || DEFAULT_PROPS;
 
-  const formattedDate = new Date(date).toLocaleDateString("en-US", {
+  const formattedDate = new Date(date).toLocaleDateString("pt-BR", {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -128,7 +128,7 @@ export default function BlogPost({ page }: Props) {
           <Image
             className="object-cover w-14 h-14 rounded-full"
             alt={authors[0]?.name}
-            src={authors[0]?.avatar || DEFAULT_AVATAR}
+            src={authors[0]?.avatar}
             width={56}
             height={56}
           />
@@ -151,7 +151,7 @@ export default function BlogPost({ page }: Props) {
         }}
       ></div>
       <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-        <div class="space-y-4">
+        {/* <div class="space-y-4">
           <p class="text-lg font-bold text-[#EAEBE6]">Share this post</p>
           <div class="flex flex-col gap-8 md:flex-row justify-between">
             <SocialIcons />
@@ -167,14 +167,14 @@ export default function BlogPost({ page }: Props) {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* divider zinc-300 */}
         <div class="w-full h-px bg-zinc-300"></div>
         <div className="flex items-center gap-4">
           <Image
             className="object-cover w-14 h-14 rounded-full"
             alt={authors[0]?.name}
-            src={authors[0]?.avatar || ""}
+            src={authors[0]?.avatar}
             width={56}
             height={56}
           />
@@ -183,7 +183,7 @@ export default function BlogPost({ page }: Props) {
               {authors[0].name}
             </p>
             <p className="text-[#EAEBE6]">
-              {`${authors[0].jobTitle ?? "Job Title"}, ${authors[0].company || "Company"}`}
+              {`${authors[0].jobTitle ?? "Autor"}, ${authors[0].company || "Clínica "}`}
             </p>
           </div>
         </div>
