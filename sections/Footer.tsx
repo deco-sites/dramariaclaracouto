@@ -106,6 +106,45 @@ export default function Footer({
   ],
 }: Props) {
 
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    try {
+      
+      const email = (e.currentTarget.elements.namedItem("email"))?.value
+      const name = (e.currentTarget.elements.namedItem("name"))?.value
+      const phone = (e.currentTarget.elements.namedItem("phone"))?.value
+      const message = (e.currentTarget.elements.namedItem("message"))?.value
+
+      const postInfo = {
+            headers: {
+              "Authorization": "Bearer re_BkYSxTrZ_5uMxYkStSn1GkyJNCZY5uCtD",
+              "Content-Type": "application/json"
+            },
+            method: "POST",
+            data: {
+              cc: [],
+              to: ["rodrigoaraujo.contact@gmail.com"],
+              bcc: [],
+              from: "onboarding@resend.dev",
+              text: `Nome: ${name}, Telefone: ${phone}, Email: ${email}, Mensagem: ${message}`,
+              html: `<p>Nome: ${name},<p> <p>Telefone: ${phone},</p> <p>Email: ${email},</p> <p>Mensagem: ${message}</p>`
+            }
+        }
+
+      const response = await fetch("https://api.resend.com/email", postInfo);
+      if (response.ok) {
+        alert("Email enviado com sucesso!");
+      } else {
+        alert("Falha ao enviar email.");
+      }
+
+    } finally {
+      console.log('fim')
+    }
+
+  }
+
 
   // const sendEmail = async () => {
 
@@ -200,7 +239,7 @@ export default function Footer({
           </div>
           <div class="lg:w-[40%]">
             <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
-            <form class="flex flex-col gap-4">
+            <form class="flex flex-col gap-4" onSubmit={handleSubmit}>
               <p class="font-normal">{subscribe.description}</p>
               <div class="flex gap-4 items-end max-[1020px]:flex-col max-[1020px]:items-start">
                 <form nSubmit={(e) => {
@@ -213,6 +252,7 @@ export default function Footer({
                       placeholder="Nome"
                       class="flex-auto input input-bordered input-primary mb-2"
                       id="input-name"
+                      name="name"
                       // onChange={() => setNome(event?.target)}
                     />
                     <input
@@ -220,6 +260,7 @@ export default function Footer({
                       placeholder="Telefone"
                       class="flex-auto input input-bordered input-primary mb-2"
                       id="input-phone"
+                      name="phone"
                       // onChange={() => setTelefone(event?.target)}
                     />
                     <input
@@ -227,14 +268,16 @@ export default function Footer({
                       placeholder="Digite seu e-mail"
                       class="flex-auto input input-bordered input-primary mb-2"
                       id="input-mail"
+                      name="email"
                       // onChange={() => setEmail(event?.target)}
                     />
                     <textarea
                       placeholder="Digite uma mensagem"
                       class="flex-auto input input-bordered input-primary"
                       name="textarea"
-                      rows="5" 
+                      rows="10" 
                       cols="30"
+                      name="message"
                       // onChange={() => setMensagem(event?.target)}
                     />
                   </div>
