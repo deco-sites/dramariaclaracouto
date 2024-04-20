@@ -342,8 +342,10 @@
     "__resolveType": "blog/loaders/Author.ts",
     "author": {
       "name": "Dra. Maria Clara Couto",
-      "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-      "email": "dramariaclaracouto@gmail.com"
+      "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/263ed623-40eb-4d1f-8647-6af8741a2845",
+      "email": "dramariaclaracouto@gmail.com",
+      "jobTitle": "Dermatologista ",
+      "company": "Dra. Maria Clara Couto"
     }
   },
   "collections/blog/categories/295e9e7730f9": {
