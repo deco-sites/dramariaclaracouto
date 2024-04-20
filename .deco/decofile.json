@@ -359,7 +359,7 @@
     "__resolveType": "blog/loaders/Category.ts",
     "category": {
       "name": "Procedimentos",
-      "slug": "procedimentos"
+      "slug": "procedimentos-test"
     }
   },
   "collections/blog/posts/1683dff1463d": {
