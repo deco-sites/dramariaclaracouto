@@ -178,15 +178,12 @@
     "__resolveType": "site/sections/BlogPosts.tsx",
     "posts": {
       "__resolveType": "blog/loaders/BlogpostList.ts",
-      "count": 6
+      "count": 100
     },
     "cta": {
       "text": "Procedimentos"
     },
-    "pagination": {
-      "page": 1,
-      "perPage": 6
-    }
+    "pagination": {}
   },
   "Preview /sections/Faq.tsx": {
     "__resolveType": "site/sections/Faq.tsx",
