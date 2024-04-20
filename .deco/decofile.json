@@ -182,6 +182,10 @@
     },
     "cta": {
       "text": "Procedimentos"
+    },
+    "pagination": {
+      "page": 1,
+      "perPage": 6
     }
   },
   "Preview /sections/Faq.tsx": {
@@ -410,6 +414,30 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/af180909-4ddf-4b50-a27f-d609b2d6edab"
     }
   },
+  "collections/blog/posts/1ec544ad99fb": {
+    "name": "collections/blog/posts/1ec544ad99fb",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Procedimentos",
+          "slug": "procedimentos"
+        }
+      ],
+      "date": "2024-04-19",
+      "slug": "microagulhamento",
+      "title": "Microagulhamento | o que é, para que serve e como é feito",
+      "excerpt": "O microagulhamento, ou indução percutânea de colágeno com agulhas, consiste na aplicação sobre a pele de um dispositivo cilíndrico com micro-agulhas de comprimentos variados, que determinarão a profundidade da pele a ser atingida de acordo com a finalidade do tratamento de cada paciente.",
+      "content": "<p><span style=\"color: #fcfcfc\">Seu objetivo é estimular a produção de colágeno e o consequente rejuvenescimento da pele. O diferencial desse procedimento é que ele não causa danos à epiderme (camada mais superficial da pele), resultando numa recuperação mais rápida.</span></p><p><span style=\"color: #fcfcfc\">As agulhas criam canais ou microperfurações que potencializam a penetração dos princípios ativos dos medicamentos utilizados para estimular a pele a produzir mais colágeno.&nbsp;</span></p><p><span style=\"color: #fcfcfc\">Descubra o segredo para uma pele radiante e rejuvenescida com o microagulhamento, uma técnica inovadora que tem conquistado o mundo da estética facial. Neste artigo, vamos explorar as indicações, contraindicações, benefícios e o processo de aplicação do microagulhamento, oferecendo insights valiosos para quem busca aprimorar sua beleza de forma natural e eficaz.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Quais são as principais indicações do microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">O microagulhamento é indicado para diversas condições dermatológicas e estéticas. Suas principais indicações incluem:</span></p><ul><li><p><span style=\"color: #fcfcfc\">Rejuvenescimento da pele: ideal para suavizar rugas finas e melhorar a textura da pele.</span></p></li><li><p><span style=\"color: #fcfcfc\">Cicatrizes de acne: contribui para reduzir a aparência de cicatrizes de acne, promovendo uma pele mais uniforme.</span></p></li><li><p><span style=\"color: #fcfcfc\">Estrias: estimula a formação de colágeno minimizando o aspecto das estrias.&nbsp;</span></p></li><li><p><span style=\"color: #fcfcfc\">Melasma e Hiperpigmentação: pode ajudar a atenuar manchas escuras e irregularidades na pigmentação.</span></p></li><li><p><span style=\"color: #fcfcfc\">Poros dilatados: ajuda a minimizar a aparência de poros dilatados, melhorando a textura geral da pele.</span></p></li><li><p><span style=\"color: #fcfcfc\">Tratamento capilar: em casos de alopecias androgenéticas masculina e feminina. Nesse caso, o dispositivo é aplicado sobre o couro cabeludo estimulando os folículos.&nbsp;</span></p></li><li><p><span style=\"color: #fcfcfc\">Drug delivery:&nbsp; o microagulhamento também é utilizado para que medicamentos de uso tópico sejam “entregues” de maneira mais eficiente, através da criação de canais por onde os ativos conseguem penetrar nas camadas mais profundas da pele.</span></p></li></ul><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Existe alguma contraindicação ao microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">Embora seja uma técnica segura, há situações em que o microagulhamento pode não ser recomendado. Contraindicações incluem:</span></p><p><span style=\"color: #fcfcfc\">Gravidez: mulheres grávidas devem evitar o microagulhamento.</span></p><p><span style=\"color: #fcfcfc\">Infecções ativas na pele: Pessoas com infecções cutâneas ativas devem aguardar a resolução antes de realizar o procedimento.</span></p><p><span style=\"color: #fcfcfc\">Histórico de quelóides ou cicatrização anormal: indivíduos propensos a queloides ou cicatrização hipertrófica devem ser cautelosos, pois o microagulhamento envolve a criação controlada de microlesões na pele.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Quais são os benefícios do microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">Os benefícios do microagulhamento são diversos, destacando-se como uma opção versátil e eficaz para melhorar a saúde e a aparência da pele. Alguns benefícios incluem:</span></p><p><span style=\"color: #fcfcfc\">Estimulação do colágeno: o microagulhamento estimula a produção natural de colágeno, promovendo firmeza e elasticidade.</span></p><p><span style=\"color: #fcfcfc\">Mínimo tempo de recuperação: geralmente, há pouco tempo de recuperação, permitindo que os pacientes retomem suas atividades normais rapidamente.</span></p><p><span style=\"color: #fcfcfc\">Versatilidade: pode ser aplicado em diversas áreas do corpo e em diferentes tipos de pele.</span></p><p><span style=\"color: #fcfcfc\">Resultados graduais e naturais: os resultados são progressivos, proporcionando uma transformação natural ao longo do tempo.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Como é a aplicação do microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">O microagulhamento é realizado por meio de um dispositivo composto por finas agulhas que criam microlesões na pele. O procedimento é realizado em sessões, com intervalo mensal, e o número de sessões necessárias pode variar de acordo com a condição tratada.&nbsp;</span></p><p><span style=\"color: #fcfcfc\">Antes da aplicação, a pele recebe pomada anestésica para minimizar qualquer desconforto.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Se você busca uma solução eficaz para melhorar a qualidade da sua pele, o microagulhamento pode ser a resposta. Entre em contato conosco para agendar uma consulta e descubra como o microagulhamento pode transformar a sua aparência de maneira segura e personalizada.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p>"
+    }
+  },
   "collections/blog/posts/2ceaf3470dfb": {
     "name": "collections/blog/posts/2ceaf3470dfb",
     "__resolveType": "blog/loaders/Blogpost.ts",
@@ -508,6 +536,30 @@
       "excerpt": "A herpes é uma família de vírus conhecida por causar infecções cutâneas, sendo duas de suas variantes mais comuns o Herpes Simples e o Herpes Zoster. Como dermatologista, é crucial oferecer informações claras e precisas sobre essas condições para auxiliar os pacientes na compreensão e no manejo adequado."
     }
   },
+  "collections/blog/posts/4aeecebd47fc": {
+    "name": "collections/blog/posts/4aeecebd47fc",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Procedimentos",
+          "slug": "procedimentos"
+        }
+      ],
+      "title": "Exossomos |  Conheça os beneíficos dele na SAÚDE CAPILAR",
+      "date": "2024-04-19",
+      "slug": "Exossomos",
+      "content": "<p><span style=\"color: #ffffff\">O que são Exossomos?</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Os exossomos são pequenas vesículas extracelulares carregadas de proteínas, lipídios e ácidos nucleicos, essenciais para a comunicação entre as células. Na terapia com exossomos, utilizamos essas vesículas para estimular processos regenerativos na pele e cabelos, resultando em benefícios notáveis para a saúde cutânea e também dos fios.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Como Funciona a Terapia com Exossomos?</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Durante o procedimento, exossomos enriquecidos são aplicados na pele. Essas vesículas carregadas de nutrientes desencadeiam uma resposta celular, estimulando a produção de colágeno, elastina e fatores de crescimento. O resultado é uma pele mais firme, hidratada e com uma aparência rejuvenescida.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Benefícios da Terapia com Exossomos:</span></p><p><span style=\"color: #ffffff\"><br></span></p><ul><li><p><span style=\"color: #ffffff\">Rejuvenescimento profundo: os exossomos atuam no nível celular, promovendo uma regeneração profunda e duradoura da pele.</span></p></li><li><p><span style=\"color: #ffffff\">Estímulo do colágeno e elastina: aumenta a produção de colágeno e elastina, fundamentais para a firmeza e elasticidade da pele.</span></p></li></ul><ul><li><p><span style=\"color: #ffffff\">Hidratação intensa: melhora a hidratação da pele, conferindo uma aparência radiante e saudável.</span></p></li><li><p><span style=\"color: #ffffff\">Tratamento personalizado: adaptamos o protocolo de terapia com exossomos para atender às necessidades específicas de cada paciente, garantindo resultados personalizados.</span></p></li></ul><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são as principais indicações dos exossomos?</span></p><p><span style=\"color: #ffffff\">Algumas das principais indicações dos exossomos incluem: tratamentos capilares (eflúvio telógeno, alopecia fibrosante frontal, alopecia androgenética, afinamento dos fios), melasma, rejuvenescimento facial, acne e rosácea, cicatrizes de acne, feridas e úlceras.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Descubra a diferença da terapia inovadora com exossomos. Agende uma consulta hoje e permita-me guiá-la em uma jornada de rejuvenescimento, proporcionando uma pele radiante e saudável.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p>",
+      "excerpt": "Uma das mais recentes opções de tratamento para revitalização cutânea, proporcionando resultados notáveis e uma experiência personalizada para cada paciente."
+    }
+  },
   "collections/blog/posts/4fe0d4c05368": {
     "name": "collections/blog/posts/4fe0d4c05368",
     "__resolveType": "blog/loaders/Blogpost.ts",
@@ -581,6 +633,30 @@
       "content": "<p><span style=\"color: #fcfcfc\">Cicatrizes normais:</span></p><p><span style=\"color: #fcfcfc\">As cicatrizes são parte natural do processo de cicatrização da pele após lesões, cortes ou cirurgias. Elas ocorrem quando o corpo produz colágeno para reparar o tecido danificado. As cicatrizes normais podem variar em aparência e textura, mas geralmente se integram à pele circundante com o tempo. Cuidados adequados durante a cicatrização, como evitar exposição solar excessiva e manter a área hidratada, podem ajudar a minimizar o impacto visual dessas cicatrizes.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Queloides:</span></p><p><span style=\"color: #fcfcfc\">Por outro lado, as queloides são uma resposta anormal do corpo ao processo de cicatrização. Nesses casos, o corpo produz excesso de colágeno, resultando em uma cicatriz elevada que ultrapassa as bordas da lesão original. Queloides podem ser pruriginosas (coçar) e esteticamente desconfortáveis. Elas são mais comuns em pessoas com predisposição genética e em áreas do corpo sujeitas a maior tensão.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Quais as opções de tratamento para melhoria das queloides?</span></p><ul><li><p><span style=\"color: #fcfcfc\">Corticosteroides injetáveis: infiltrações de corticosteroides podem ajudar a reduzir a inflamação e o volume das queloides, tornando-as menos proeminentes.</span></p></li><li><p><span style=\"color: #fcfcfc\">Cirurgia a laser: podem suavizar a aparência das cicatrizes.</span></p></li><li><p><span style=\"color: #fcfcfc\">Terapia compressiva: o uso de curativos compressivos pode ser benéfico, especialmente após procedimentos cirúrgicos, para evitar a formação de queloides.</span></p></li><li><p><span style=\"color: #fcfcfc\">Radioterapia: em casos selecionados, a radioterapia pode ser utilizada para prevenir a recorrência de queloides após a remoção cirúrgica.</span></p></li><li><p><span style=\"color: #fcfcfc\">Tratamentos tópicos: produtos tópicos, como géis de silicone, podem ser recomendados para ajudar na melhoria da textura e coloração das cicatrizes.</span></p></li></ul><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">A importância da consulta dermatológica:</span></p><p><span style=\"color: #fcfcfc\">Cada paciente é único, e o tratamento mais eficaz para cicatrizes e queloides pode variar. A consulta com um dermatologista é essencial para uma avaliação precisa da condição da pele, permitindo o desenvolvimento de um plano de tratamento personalizado.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Lembre-se, a prevenção é chave. Evitar manipulação excessiva de feridas, cuidados adequados com cortes e seguir as orientações do dermatologista são passos importantes para minimizar o risco de cicatrizes e queloides. Com as opções de tratamento adequadas, podemos trabalhar juntos para restaurar a saúde e a confiança da sua pele.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p>"
     }
   },
+  "collections/blog/posts/5ede5b1afdd0": {
+    "name": "collections/blog/posts/5ede5b1afdd0",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Procedimentos",
+          "slug": "procedimentos"
+        }
+      ],
+      "title": "Esvaziadores de gordura facial e de papada",
+      "date": "2024-04-19",
+      "content": "<p><span style=\"color: #fcfcfc\">É um tratamento em que ativos com ação lipolítica são injetadas na face ou pequenas regiões do corpo a fim de reduzir volume ou esvaziar bolsas de gordura localizada para melhorar os contornos. O tratamento possui resultado natural e duradouro.</span></p><p><span style=\"color: #fcfcfc\">O procedimento é realizado com anestesia tópica (creme anestésico), de forma minimamente invasiva, e a substância é injetada no local desejado com o auxílio de uma finíssima agulha. É esperado que o local tratado fique avermelhado e levemente inchado e dolorido após a aplicação, melhorando ao longo dos dias seguintes.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Quais são as principais indicações dos esvaziadores de gordura?</span></p><p><span style=\"color: #fcfcfc\">São indicados para melhorar o contorno e reduzir gordura de regiões como papada, jowl (o famoso “buldogue”), bochechas, área de gordurinha do sutiã, flancos, abdômen ou pequenas áreas corporais. Não é indicado para emagrecimento ou remoção de grandes volumes de gordura corporal.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Contraindicações dos esvaziadores de gordura:</span></p><p><span style=\"color: #fcfcfc\">Embora sejam procedimentos seguros, existem algumas contraindicações importantes a serem consideradas:</span></p><p><span style=\"color: #fcfcfc\">Gravidez e amamentação: mulheres grávidas ou em período de amamentação devem evitar esses procedimentos.</span></p><p><span style=\"color: #fcfcfc\">Cirurgias recentes: recomenda-se evitar os esvaziadores de gordura em áreas que tenham passado por cirurgia recente.</span></p><p><span style=\"color: #fcfcfc\">Alergias conhecidas: indivíduos alérgicos aos componentes dos produtos utilizados não devem realizar o procedimento.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p>",
+      "slug": "Esvaziadores-de-gordura",
+      "excerpt": "Os esvaziados de gordura também conhecidos como Emptiers consistem em um tratamento para reduzir bolsas de gordura localizada, sem necessidade de cortes, com rápida recuperação e resultados progressivos."
+    }
+  },
   "collections/blog/posts/648fef3fab23": {
     "name": "collections/blog/posts/648fef3fab23",
     "__resolveType": "blog/loaders/Blogpost.ts",
@@ -627,6 +703,30 @@
       "slug": "unhas-fracas-e-quebradicas-o-que-pode-ser",
       "content": "<p><span style=\"color: #fafafa\"><br></span></p><ul><li><p><span style=\"color: #fafafa\">Deficiências nutricionais: a falta de vitaminas como biotina e minerais como ferro pode impactar a saúde das unhas.</span></p></li><li><p><span style=\"color: #fafafa\">Exposição a produtos químicos: o contato frequente com detergentes, removedores de esmalte e outros produtos químicos pode enfraquecer as unhas.</span></p></li><li><p><span style=\"color: #fafafa\">Traumas recorrentes: lesões frequentes, como bater as unhas em superfícies duras, podem levar à fragilidade.</span></p></li><li><p><span style=\"color: #fafafa\">Doenças dermatológicas: como psoríase, líquen plano, alopecia areata, entre outras podem manifestar-se nas unhas.</span></p></li><li><p><span style=\"color: #fafafa\">Alterações sistêmicas: condições médicas como hipotireoidismo também podem afetar a saúde das unhas.</span></p></li></ul><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Além do exame clínico, costumamos realizar uma avaliação laboratorial, pois identificar se existe uma causa para a fragilidade das unhas é o principal passo antes de iniciarmos qualquer tratamento.</span></p><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Algumas estratégias para fortalecer as unhas:</span></p><ul><li><p><span style=\"color: #fafafa\">Adotar uma dieta balanceada e nutritiva</span></p></li><li><p><span style=\"color: #fafafa\">Evitar o uso excessivo de produtos químicos e manter as unhas limpas e secas.</span></p></li><li><p><span style=\"color: #fafafa\">Uso de cremes hidratantes para cutículas e unhas para prevenir a desidratação.</span></p></li><li><p><span style=\"color: #fafafa\">Suplementação oral personalizada</span></p></li><li><p><span style=\"color: #fafafa\">Tratamentos tópicos com ativos fortalecedores.</span></p></li></ul><p><span style=\"color: #fafafa\"><br></span></p><p><span style=\"color: #fafafa\">Lembre-se, unhas saudáveis são um indicativo importante da nossa saúde geral. Com os cuidados certos, é possível fortalecê-las e desfrutar de unhas bonitas e resistentes. Para consultas ou mais informações sobre cuidados com as unhas, entre em contato conosco.</span></p><p><span style=\"color: #fafafa\"><br></span></p>",
       "excerpt": "As unhas são um reflexo da nossa saúde geral, e a fragilidade delas pode ser um indicativo de diversos fatores. Algumas causas comuns"
+    }
+  },
+  "collections/blog/posts/88f26e85debd": {
+    "name": "collections/blog/posts/88f26e85debd",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Procedimentos",
+          "slug": "procedimentos"
+        }
+      ],
+      "date": "2024-04-19",
+      "slug": "peeling-quimicos",
+      "title": "Peeling químico | o que é, para que serve e cuidados",
+      "excerpt": " Descubra a arte da renovação da pele com os peelings químicos, uma abordagem consagrada para revelar uma tez mais radiante e jovem. ",
+      "content": "<p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">O peeling químico é uma das formas mais efetivas de rejuvenescimento da pele, sendo responsável por uma renovação celular induzida por ácidos variados e em diferentes concentrações. O tratamento estético é feito em consultório dermatológico e sua indicação ocorre após análise minuciosa da pele do paciente e suas principais queixas.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são as indicações dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">Os peelings químicos são recomendados para diversas condições dermatológicas. Suas principais indicações incluem:</span></p><p><span style=\"color: #ffffff\"><br></span></p><ul><li><p><span style=\"color: #ffffff\">Rugas e linhas finas: redução visível de rugas e linhas de expressão, promovendo uma pele mais suave.</span></p></li><li><p><span style=\"color: #ffffff\">Hiperpigmentação: clareamento de manchas escuras, sardas e melasma para uma pele mais uniforme.</span></p></li><li><p><span style=\"color: #ffffff\">Acne e cicatrizes de acne: melhoria da textura da pele, redução de cicatrizes de acne e controle da oleosidade.</span></p></li><li><p><span style=\"color: #ffffff\">Envelhecimento Cutâneo: estímulo à produção de colágeno, promovendo firmeza e elasticidade.</span></p></li><li><p><span style=\"color: #ffffff\">Pele áspera,&nbsp; irregular ou com poros dilatados: suavização da textura da pele para um aspecto mais saudável.</span></p></li><li><p><span style=\"color: #ffffff\">Estrias: melhora do aspecto em razão do estímulo de colágeno.&nbsp;</span></p></li></ul><p><span style=\"color: #ffffff\">Para cada situação mencionada existe um tipo de ácido específico. A maioria deles pode ser administrada de forma conjunta, agindo na correção de mais de uma condição.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais as contraindicações dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">Embora sejam procedimentos seguros, há situações em que os peelings químicos podem não ser recomendados. Contraindicações incluem:</span></p><p><span style=\"color: #ffffff\">Gravidez e Amamentação: Mulheres grávidas ou em fase de amamentação devem evitar peelings químicos (alguns peelings são liberados durante a amamentação).&nbsp;</span></p><p><span style=\"color: #ffffff\">Dermatites: presença de dermatites ou infecções cutâneas ativas é uma contraindicação temporária.</span></p><p><span style=\"color: #ffffff\">Uso atual de Isotretinoína: pacientes em uso de isotretinoína podem precisar aguardar antes de realizar peelings químicos.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais os benefícios dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">Os peelings químicos oferecem diversos benefícios, destacando-se como uma solução versátil para melhorar a saúde da pele. Alguns benefícios incluem:</span></p><p><span style=\"color: #ffffff\">Renovação celular: estímulo à renovação celular para uma pele uniforme e viçosa.&nbsp;</span></p><p><span style=\"color: #ffffff\">Melhoria da textura e tom: suavização de irregularidades e uniformização do tom da pele.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Tratamento personalizado: diferentes tipos de peelings podem ser adaptados às necessidades específicas de cada paciente.</span></p><p><span style=\"color: #ffffff\">Resultados visíveis: efeitos visíveis já na primeira sessão, com melhorias progressivas ao longo do tempo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Como é a aplicação dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">O tratamento é realizado com a aplicação de uma solução química na pele, que é ajustada de acordo com o tipo de peeling e os objetivos do paciente. O tempo de ação será definido individualmente. Dependendo do ácido escolhido, o paciente pode experimentar uma sensação leve de ardor durante o procedimento.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são os tipos de peelings químicos?</span></p><p><span style=\"color: #ffffff\">Existem diferentes tipos de peelings químicos, classificados de acordo com a profundidade de penetração na pele:</span></p><p><span style=\"color: #ffffff\">Peeling superficial: trata camadas externas da pele, adequado para melhoria da textura e tom.</span></p><p><span style=\"color: #ffffff\">Peeling médio: age em camadas mais profundas, indicado para rugas mais pronunciadas e manchas.</span></p><p><span style=\"color: #ffffff\">Peeling Profundo: penetra nas camadas mais profundas, utilizado para casos mais complexos de envelhecimento cutâneo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Se você está em busca de uma transformação na saúde e beleza da sua pele, entre em contato conosco para agendar uma consulta. Descubra como os peelings químicos podem ser a chave para uma pele rejuvenescida e radiante.</span></p><p><span style=\"color: #ffffff\"><br></span></p>"
     }
   },
   "collections/blog/posts/9a2c94c261ec": {
@@ -747,6 +847,54 @@
       "slug": "Acne",
       "content": "<p><span style=\"color: #fcfcfc\">Graus de Acne:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Acne Grau I: presença apenas de comedões (cravos) abertos e fechados, em especial na testa, nariz e queixo, conhecida como zona T. Ausência de lesões inflamatórias (espinhas).</span></p><p><span style=\"color: #fcfcfc\">Acne Grau II: além dos comedões, inclui pápulas (lesões elevadas sem pus) e pústulas (lesões com pus).</span></p><p><span style=\"color: #fcfcfc\">Acne grau III: presença de nódulos e cistos.</span></p><p><span style=\"color: #fcfcfc\">Acne Grau IV: lesões císticas maiores que podem se interconectar pela pele, formando “túneis”. Nódulos grandes e muitas vezes dolorosos. Pode levar a cicatrizes permanentes.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">As causas podem incluir:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Hormônios: alterações hormonais, comuns durante a adolescência e período menstrual aumentam a produção sebácea.</span></p><p><span style=\"color: #fcfcfc\">Genética: predisposição genética pode influenciar na propensão à acne.</span></p><p><span style=\"color: #fcfcfc\">Bactérias: a presença de Cutibacterium acnes nas glândulas sebáceas contribui para os quadros inflamatórios.</span></p><p><span style=\"color: #fcfcfc\">Obstrução dos poros: acúmulo de células mortas da pele e sebo obstrui os poros, propiciando o surgimento da acne.</span></p><p><span style=\"color: #fcfcfc\"><br><br></span></p><p><span style=\"color: #fcfcfc\">Existem diversos tratamentos para acne. Uma consulta com um dermatologista é sempre indicada para se saber qual a melhor opção para cada caso.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Independentemente do grau da acne e do tratamento escolhido, cuidados gerais diários são fundamentais. Podemos citar de maneira geral: higienização da pele, remoção diária da maquiagem e uso de produtos não comedogênicos (incluindo o protetor solar).&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Já o tratamento medicamentoso varia de acordo com a gravidade do caso e o tipo de pele. Inclui opções como:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Cremes de uso tópico incluindo ativos como ácido salicílico, ácido azelaico, retinoides (ácido retinoico, adapaleno) e peróxido de benzoila: prescritos pelo dermatologista, auxiliam na desobstrução dos poros e reduzem o processo inflamatório.</span></p><p><span style=\"color: #fcfcfc\">Antibióticos orais ou tópicos: diminuem a quantidade de bactérias contidas no interior dos folículos e podem auxiliar na diminuição da inflamação.&nbsp;</span></p><p><span style=\"color: #fcfcfc\">Medicamentos que reduzem os efeitos de hormônios andrógenos (“masculinos”).</span></p><p><span style=\"color: #fcfcfc\">Isotretinoína: medicação oral indicada para casos mais graves, que não respondem a outros tratamentos ou em casos de recidiva.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Procedimentos dermatológicos: peelings químicos, microdermoabrasão, alguns tipos de lasers e luzes, drenagem de abscessos, infiltração com corticóides em lesões nodulares muito inflamadas ou em cicatrizes elevadas, entre outros.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Cuidados Preventivos:</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Evite espremer as lesões: a manipulação pode agravar a inflamação e levar a cicatrizes.</span></p><p><span style=\"color: #fcfcfc\">Alimentação balanceada: consuma uma dieta nutritiva, evite lácteos e alimentos de alto índice glicêmico.</span></p><p><span style=\"color: #fcfcfc\">Proteção solar: use protetor solar diariamente para prevenir manchas.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Consulta Dermatológica:</span></p><p><span style=\"color: #fcfcfc\">Marque uma consulta para uma avaliação personalizada e recomendações específicas para o seu tipo de pele e gravidade da acne.</span></p><p><span style=\"color: #fcfcfc\">Entender as causas e adotar uma abordagem abrangente e integrativa no cuidado da pele é essencial para controlar a acne e proporcionar resultados duradouros, restaurando a saúde e a beleza da sua pele.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p>",
       "excerpt": "A acne pode se manifestar em diferentes graus, desde cravos (comedões), espinhas até lesões inflamatórias mais graves. Entender os graus de acne, suas causas e opções de tratamento é fundamental para conquistar uma pele linda, saudável e radiante."
+    }
+  },
+  "collections/blog/posts/aca811593978": {
+    "name": "collections/blog/posts/aca811593978",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Procedimentos",
+          "slug": "procedimentos"
+        }
+      ],
+      "title": "Profhilo | O que é, quando é indicado e benefícios",
+      "content": "<p></p>",
+      "slug": "Profhilo",
+      "date": "2024-04-19",
+      "excerpt": "Composto 100% de ácido hialurônico ultrapuro, sem agentes químicos e com a maior concentração do mercado, o produto age nas três camadas da pele (epiderme, derme e hipoderme), promovendo uma bioremodelação celular e a regeneração dos tecidos, com resultados muito naturais, retardando o processo do envelhecimento e flacidez. "
+    }
+  },
+  "collections/blog/posts/b1082dbe8e71": {
+    "name": "collections/blog/posts/b1082dbe8e71",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Procedimentos",
+          "slug": "procedimentos"
+        }
+      ],
+      "date": "2024-04-18",
+      "content": "<p><span style=\"color: #ffffff\">Os fios lisos podem ser aplicados em todas as regiões da face, inclusive nas mais delicadas como as pálpebras. Não provocam volumização e são de aplicação muito segura. Dependendo da área, os fios podem ser aplicados como palitos paralelos, cruzados, em leque ou em hashtags para um maior efeito de estímulo de colágeno.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p>",
+      "slug": "fios-de-pdo-no-rosto",
+      "excerpt": "Os fios de PDO são compostos de polidioxanona, substância biocompatível que é totalmente absorvível pelo organismo e são aplicados com auxílio de uma agulha especial ou cânula. O objetivo do tratamento é para a melhora da flacidez e da qualidade da pele.",
+      "title": "Fios de sustentação, fios de PDO, lisos e espiculados"
     }
   },
   "collections/blog/posts/b5130e418ca9": {
@@ -919,6 +1067,30 @@
       "content": "<p><span style=\"color: #f8f7f7\">Três exemplos de micoses extremamente comuns em nosso dia a dia são a onicomicose (micose de unha), a tinea pedis (frieira) e a pitiríase versicolor (popularmente conhecida como “pano branco”).&nbsp;</span></p><p><span style=\"color: #f8f7f7\">Os principais fatores de risco para o desenvolvimento de micoses compreendem:</span></p><p><span style=\"color: #f8f7f7\">Umidade e calor: ambientes úmidos favorecem o crescimento de fungos.</span></p><p><span style=\"color: #f8f7f7\">Contato prolongado com água: atividades que envolvam exposição prolongada à água podem aumentar o risco.</span></p><p><span style=\"color: #f8f7f7\">Imunossupressão: sistemas imunológicos enfraquecidos tornam o organismo mais suscetível.</span></p><p><span style=\"color: #f8f7f7\"><br></span></p><p><span style=\"color: #f8f7f7\">O tratamento se baseia no uso de antifúngicos tópicos e/ou orais prescritos para combater a infecção.</span></p><p><span style=\"color: #f8f7f7\"><br></span></p><p><span style=\"color: #f8f7f7\">Consulte um Dermatologista:</span></p><p><span style=\"color: #f8f7f7\">Se você suspeita de uma infecção fúngica, é crucial consultar um dermatologista para um diagnóstico preciso e um plano de tratamento personalizado.</span></p><p><span style=\"color: #f8f7f7\"><br></span></p>"
     }
   },
+  "collections/blog/posts/eede0855459d": {
+    "name": "collections/blog/posts/eede0855459d",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Dra. Maria Clara Couto",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
+          "email": "dramariaclaracouto@gmail.com"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Procedimentos",
+          "slug": "procedimentos"
+        }
+      ],
+      "title": "PDRN | para que serve e como funciona?",
+      "date": "2024-04-19",
+      "content": "<p><span style=\"color: #ffffff\">O que é PDRN?</span></p><p><span style=\"color: #ffffff\">PDRN é uma abreviação para Polinucleotídeo, uma substância biocompatível derivada do DNA purificado do salmão. Este componente natural é conhecido por suas propriedades regenerativas, auxiliando no estímulo da produção de colágeno, elastina, ácido hialurônico e fatores de crescimento na pele e favorecendo a regeneração e revitalização da pele e a cicatrização de feridas.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Benefícios do Tratamento PDRN:</span></p><ul><li><p><span style=\"color: #ffffff\">Rejuvenescimento da pele: estimula a renovação celular, resultando em uma pele mais jovem e firme.</span></p></li><li><p><span style=\"color: #ffffff\">Redução de rugas e linhas finas: diminui visivelmente sinais de envelhecimento, promovendo uma aparência mais suave e revitalizada.</span></p></li><li><p><span style=\"color: #ffffff\">Melhora na elasticidade: estimula a produção de colágeno e elastina para uma pele mais firme e tonificada.</span></p></li><li><p><span style=\"color: #ffffff\">Resultados naturais e duradouros: o PDRN promove mudanças progressivas ao longo do tempo, garantindo resultados naturais e duradouros.</span></p></li><li><p><span style=\"color: #ffffff\">Recuperação rápida: geralmente, os pacientes experimentam uma recuperação rápida, com pouco desconforto ou tempo de inatividade.</span></p></li></ul><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Cada aplicação é personalizada de acordo com as características individuais do paciente. Desta maneira, o número de sessões e a frequência de aplicação do PDRN serão determinados de acordo com as necessidades da pele.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são as principais indicações do PDRN?</span></p><p><span style=\"color: #ffffff\">O PDRN é versátil e pode ser uma opção eficaz para uma variedade de queixas relacionadas à pele, desde tratamentos visando rejuvenescimento até melhorias na cicatrização e na qualidade da pele.</span></p><p><span style=\"color: #ffffff\">Algumas das principais indicações incluem:</span></p><ul><li><p><span style=\"color: #ffffff\">Após procedimentos como laser e peeling, devido a seus efeitos anti-inflamatórios</span></p></li><li><p><span style=\"color: #ffffff\">Cicatrização de feridas</span></p></li><li><p><span style=\"color: #ffffff\">Diminuição dos sinais do envelhecimento, como rugas, linhas finas e tamanho dos poros</span></p></li><li><p><span style=\"color: #ffffff\">Melasma&nbsp;</span></p></li><li><p><span style=\"color: #ffffff\">Melhora da aparência de estrias e celulites</span></p></li><li><p><span style=\"color: #ffffff\">Melhora da textura e qualidade da pele</span></p></li><li><p><span style=\"color: #ffffff\">Redução de cicatrizes.</span></p></li></ul><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Descubra uma nova dimensão de rejuvenescimento com PDRN. Agende uma consulta hoje e dê o primeiro passo para uma pele radiante e saudável. Estou comprometida em proporcionar resultados excepcionais, aliando inovação e cuidado para a sua beleza.</span></p><p><span style=\"color: #ffffff\"><br></span></p>",
+      "slug": "pdrn-para-que-serve-e-como-funciona",
+      "excerpt": "Este método inovador tem conquistado destaque como uma abordagem eficaz para rejuvenescimento da pele, destacando-se como uma opção segura e com resultados notáveis."
+    }
+  },
   "collections/blog/posts/f443333d0336": {
     "name": "collections/blog/posts/f443333d0336",
     "__resolveType": "blog/loaders/Blogpost.ts",
@@ -1027,6 +1199,9 @@
       },
       {
         "__resolveType": "Preview /sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -1177,174 +1352,6 @@
     "firstByteThresholdMS": false,
     "theme": {
       "__resolveType": "Neutral"
-    }
-  },
-  "collections/blog/posts/eede0855459d": {
-    "name": "collections/blog/posts/eede0855459d",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Dra. Maria Clara Couto",
-          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-          "email": "dramariaclaracouto@gmail.com"
-        }
-      ],
-      "categories": [
-        {
-          "name": "Procedimentos",
-          "slug": "procedimentos"
-        }
-      ],
-      "title": "PDRN | para que serve e como funciona?",
-      "date": "2024-04-19",
-      "content": "<p><span style=\"color: #ffffff\">O que é PDRN?</span></p><p><span style=\"color: #ffffff\">PDRN é uma abreviação para Polinucleotídeo, uma substância biocompatível derivada do DNA purificado do salmão. Este componente natural é conhecido por suas propriedades regenerativas, auxiliando no estímulo da produção de colágeno, elastina, ácido hialurônico e fatores de crescimento na pele e favorecendo a regeneração e revitalização da pele e a cicatrização de feridas.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Benefícios do Tratamento PDRN:</span></p><ul><li><p><span style=\"color: #ffffff\">Rejuvenescimento da pele: estimula a renovação celular, resultando em uma pele mais jovem e firme.</span></p></li><li><p><span style=\"color: #ffffff\">Redução de rugas e linhas finas: diminui visivelmente sinais de envelhecimento, promovendo uma aparência mais suave e revitalizada.</span></p></li><li><p><span style=\"color: #ffffff\">Melhora na elasticidade: estimula a produção de colágeno e elastina para uma pele mais firme e tonificada.</span></p></li><li><p><span style=\"color: #ffffff\">Resultados naturais e duradouros: o PDRN promove mudanças progressivas ao longo do tempo, garantindo resultados naturais e duradouros.</span></p></li><li><p><span style=\"color: #ffffff\">Recuperação rápida: geralmente, os pacientes experimentam uma recuperação rápida, com pouco desconforto ou tempo de inatividade.</span></p></li></ul><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Cada aplicação é personalizada de acordo com as características individuais do paciente. Desta maneira, o número de sessões e a frequência de aplicação do PDRN serão determinados de acordo com as necessidades da pele.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são as principais indicações do PDRN?</span></p><p><span style=\"color: #ffffff\">O PDRN é versátil e pode ser uma opção eficaz para uma variedade de queixas relacionadas à pele, desde tratamentos visando rejuvenescimento até melhorias na cicatrização e na qualidade da pele.</span></p><p><span style=\"color: #ffffff\">Algumas das principais indicações incluem:</span></p><ul><li><p><span style=\"color: #ffffff\">Após procedimentos como laser e peeling, devido a seus efeitos anti-inflamatórios</span></p></li><li><p><span style=\"color: #ffffff\">Cicatrização de feridas</span></p></li><li><p><span style=\"color: #ffffff\">Diminuição dos sinais do envelhecimento, como rugas, linhas finas e tamanho dos poros</span></p></li><li><p><span style=\"color: #ffffff\">Melasma&nbsp;</span></p></li><li><p><span style=\"color: #ffffff\">Melhora da aparência de estrias e celulites</span></p></li><li><p><span style=\"color: #ffffff\">Melhora da textura e qualidade da pele</span></p></li><li><p><span style=\"color: #ffffff\">Redução de cicatrizes.</span></p></li></ul><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Descubra uma nova dimensão de rejuvenescimento com PDRN. Agende uma consulta hoje e dê o primeiro passo para uma pele radiante e saudável. Estou comprometida em proporcionar resultados excepcionais, aliando inovação e cuidado para a sua beleza.</span></p><p><span style=\"color: #ffffff\"><br></span></p>",
-      "slug": "pdrn-para-que-serve-e-como-funciona",
-      "excerpt": "Este método inovador tem conquistado destaque como uma abordagem eficaz para rejuvenescimento da pele, destacando-se como uma opção segura e com resultados notáveis."
-    }
-  },
-  "collections/blog/posts/4aeecebd47fc": {
-    "name": "collections/blog/posts/4aeecebd47fc",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Dra. Maria Clara Couto",
-          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-          "email": "dramariaclaracouto@gmail.com"
-        }
-      ],
-      "categories": [
-        {
-          "name": "Procedimentos",
-          "slug": "procedimentos"
-        }
-      ],
-      "title": "Exossomos |  Conheça os beneíficos dele na SAÚDE CAPILAR",
-      "date": "2024-04-19",
-      "slug": "Exossomos",
-      "content": "<p><span style=\"color: #ffffff\">O que são Exossomos?</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Os exossomos são pequenas vesículas extracelulares carregadas de proteínas, lipídios e ácidos nucleicos, essenciais para a comunicação entre as células. Na terapia com exossomos, utilizamos essas vesículas para estimular processos regenerativos na pele e cabelos, resultando em benefícios notáveis para a saúde cutânea e também dos fios.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Como Funciona a Terapia com Exossomos?</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Durante o procedimento, exossomos enriquecidos são aplicados na pele. Essas vesículas carregadas de nutrientes desencadeiam uma resposta celular, estimulando a produção de colágeno, elastina e fatores de crescimento. O resultado é uma pele mais firme, hidratada e com uma aparência rejuvenescida.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Benefícios da Terapia com Exossomos:</span></p><p><span style=\"color: #ffffff\"><br></span></p><ul><li><p><span style=\"color: #ffffff\">Rejuvenescimento profundo: os exossomos atuam no nível celular, promovendo uma regeneração profunda e duradoura da pele.</span></p></li><li><p><span style=\"color: #ffffff\">Estímulo do colágeno e elastina: aumenta a produção de colágeno e elastina, fundamentais para a firmeza e elasticidade da pele.</span></p></li></ul><ul><li><p><span style=\"color: #ffffff\">Hidratação intensa: melhora a hidratação da pele, conferindo uma aparência radiante e saudável.</span></p></li><li><p><span style=\"color: #ffffff\">Tratamento personalizado: adaptamos o protocolo de terapia com exossomos para atender às necessidades específicas de cada paciente, garantindo resultados personalizados.</span></p></li></ul><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são as principais indicações dos exossomos?</span></p><p><span style=\"color: #ffffff\">Algumas das principais indicações dos exossomos incluem: tratamentos capilares (eflúvio telógeno, alopecia fibrosante frontal, alopecia androgenética, afinamento dos fios), melasma, rejuvenescimento facial, acne e rosácea, cicatrizes de acne, feridas e úlceras.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Descubra a diferença da terapia inovadora com exossomos. Agende uma consulta hoje e permita-me guiá-la em uma jornada de rejuvenescimento, proporcionando uma pele radiante e saudável.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p>",
-      "excerpt": "Uma das mais recentes opções de tratamento para revitalização cutânea, proporcionando resultados notáveis e uma experiência personalizada para cada paciente."
-    }
-  },
-  "collections/blog/posts/aca811593978": {
-    "name": "collections/blog/posts/aca811593978",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Dra. Maria Clara Couto",
-          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-          "email": "dramariaclaracouto@gmail.com"
-        }
-      ],
-      "categories": [
-        {
-          "name": "Procedimentos",
-          "slug": "procedimentos"
-        }
-      ],
-      "title": "Profhilo | O que é, quando é indicado e benefícios",
-      "content": "<p></p>",
-      "slug": "Profhilo",
-      "date": "2024-04-19",
-      "excerpt": "Composto 100% de ácido hialurônico ultrapuro, sem agentes químicos e com a maior concentração do mercado, o produto age nas três camadas da pele (epiderme, derme e hipoderme), promovendo uma bioremodelação celular e a regeneração dos tecidos, com resultados muito naturais, retardando o processo do envelhecimento e flacidez. "
-    }
-  },
-  "collections/blog/posts/5ede5b1afdd0": {
-    "name": "collections/blog/posts/5ede5b1afdd0",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Dra. Maria Clara Couto",
-          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-          "email": "dramariaclaracouto@gmail.com"
-        }
-      ],
-      "categories": [
-        {
-          "name": "Procedimentos",
-          "slug": "procedimentos"
-        }
-      ],
-      "title": "Esvaziadores de gordura facial e de papada",
-      "date": "2024-04-19",
-      "content": "<p><span style=\"color: #fcfcfc\">É um tratamento em que ativos com ação lipolítica são injetadas na face ou pequenas regiões do corpo a fim de reduzir volume ou esvaziar bolsas de gordura localizada para melhorar os contornos. O tratamento possui resultado natural e duradouro.</span></p><p><span style=\"color: #fcfcfc\">O procedimento é realizado com anestesia tópica (creme anestésico), de forma minimamente invasiva, e a substância é injetada no local desejado com o auxílio de uma finíssima agulha. É esperado que o local tratado fique avermelhado e levemente inchado e dolorido após a aplicação, melhorando ao longo dos dias seguintes.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Quais são as principais indicações dos esvaziadores de gordura?</span></p><p><span style=\"color: #fcfcfc\">São indicados para melhorar o contorno e reduzir gordura de regiões como papada, jowl (o famoso “buldogue”), bochechas, área de gordurinha do sutiã, flancos, abdômen ou pequenas áreas corporais. Não é indicado para emagrecimento ou remoção de grandes volumes de gordura corporal.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Contraindicações dos esvaziadores de gordura:</span></p><p><span style=\"color: #fcfcfc\">Embora sejam procedimentos seguros, existem algumas contraindicações importantes a serem consideradas:</span></p><p><span style=\"color: #fcfcfc\">Gravidez e amamentação: mulheres grávidas ou em período de amamentação devem evitar esses procedimentos.</span></p><p><span style=\"color: #fcfcfc\">Cirurgias recentes: recomenda-se evitar os esvaziadores de gordura em áreas que tenham passado por cirurgia recente.</span></p><p><span style=\"color: #fcfcfc\">Alergias conhecidas: indivíduos alérgicos aos componentes dos produtos utilizados não devem realizar o procedimento.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p>",
-      "slug": "Esvaziadores-de-gordura",
-      "excerpt": "Os esvaziados de gordura também conhecidos como Emptiers consistem em um tratamento para reduzir bolsas de gordura localizada, sem necessidade de cortes, com rápida recuperação e resultados progressivos."
-    }
-  },
-  "collections/blog/posts/b1082dbe8e71": {
-    "name": "collections/blog/posts/b1082dbe8e71",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Dra. Maria Clara Couto",
-          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-          "email": "dramariaclaracouto@gmail.com"
-        }
-      ],
-      "categories": [
-        {
-          "name": "Procedimentos",
-          "slug": "procedimentos"
-        }
-      ],
-      "date": "2024-04-18",
-      "content": "<p><span style=\"color: #ffffff\">Os fios lisos podem ser aplicados em todas as regiões da face, inclusive nas mais delicadas como as pálpebras. Não provocam volumização e são de aplicação muito segura. Dependendo da área, os fios podem ser aplicados como palitos paralelos, cruzados, em leque ou em hashtags para um maior efeito de estímulo de colágeno.&nbsp;</span></p><p><span style=\"color: #ffffff\"><br></span></p>",
-      "slug": "fios-de-pdo-no-rosto",
-      "excerpt": "Os fios de PDO são compostos de polidioxanona, substância biocompatível que é totalmente absorvível pelo organismo e são aplicados com auxílio de uma agulha especial ou cânula. O objetivo do tratamento é para a melhora da flacidez e da qualidade da pele.",
-      "title": "Fios de sustentação, fios de PDO, lisos e espiculados"
-    }
-  },
-  "collections/blog/posts/1ec544ad99fb": {
-    "name": "collections/blog/posts/1ec544ad99fb",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Dra. Maria Clara Couto",
-          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-          "email": "dramariaclaracouto@gmail.com"
-        }
-      ],
-      "categories": [
-        {
-          "name": "Procedimentos",
-          "slug": "procedimentos"
-        }
-      ],
-      "date": "2024-04-19",
-      "slug": "microagulhamento",
-      "title": "Microagulhamento | o que é, para que serve e como é feito",
-      "excerpt": "O microagulhamento, ou indução percutânea de colágeno com agulhas, consiste na aplicação sobre a pele de um dispositivo cilíndrico com micro-agulhas de comprimentos variados, que determinarão a profundidade da pele a ser atingida de acordo com a finalidade do tratamento de cada paciente.",
-      "content": "<p><span style=\"color: #fcfcfc\">Seu objetivo é estimular a produção de colágeno e o consequente rejuvenescimento da pele. O diferencial desse procedimento é que ele não causa danos à epiderme (camada mais superficial da pele), resultando numa recuperação mais rápida.</span></p><p><span style=\"color: #fcfcfc\">As agulhas criam canais ou microperfurações que potencializam a penetração dos princípios ativos dos medicamentos utilizados para estimular a pele a produzir mais colágeno.&nbsp;</span></p><p><span style=\"color: #fcfcfc\">Descubra o segredo para uma pele radiante e rejuvenescida com o microagulhamento, uma técnica inovadora que tem conquistado o mundo da estética facial. Neste artigo, vamos explorar as indicações, contraindicações, benefícios e o processo de aplicação do microagulhamento, oferecendo insights valiosos para quem busca aprimorar sua beleza de forma natural e eficaz.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Quais são as principais indicações do microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">O microagulhamento é indicado para diversas condições dermatológicas e estéticas. Suas principais indicações incluem:</span></p><ul><li><p><span style=\"color: #fcfcfc\">Rejuvenescimento da pele: ideal para suavizar rugas finas e melhorar a textura da pele.</span></p></li><li><p><span style=\"color: #fcfcfc\">Cicatrizes de acne: contribui para reduzir a aparência de cicatrizes de acne, promovendo uma pele mais uniforme.</span></p></li><li><p><span style=\"color: #fcfcfc\">Estrias: estimula a formação de colágeno minimizando o aspecto das estrias.&nbsp;</span></p></li><li><p><span style=\"color: #fcfcfc\">Melasma e Hiperpigmentação: pode ajudar a atenuar manchas escuras e irregularidades na pigmentação.</span></p></li><li><p><span style=\"color: #fcfcfc\">Poros dilatados: ajuda a minimizar a aparência de poros dilatados, melhorando a textura geral da pele.</span></p></li><li><p><span style=\"color: #fcfcfc\">Tratamento capilar: em casos de alopecias androgenéticas masculina e feminina. Nesse caso, o dispositivo é aplicado sobre o couro cabeludo estimulando os folículos.&nbsp;</span></p></li><li><p><span style=\"color: #fcfcfc\">Drug delivery:&nbsp; o microagulhamento também é utilizado para que medicamentos de uso tópico sejam “entregues” de maneira mais eficiente, através da criação de canais por onde os ativos conseguem penetrar nas camadas mais profundas da pele.</span></p></li></ul><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Existe alguma contraindicação ao microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">Embora seja uma técnica segura, há situações em que o microagulhamento pode não ser recomendado. Contraindicações incluem:</span></p><p><span style=\"color: #fcfcfc\">Gravidez: mulheres grávidas devem evitar o microagulhamento.</span></p><p><span style=\"color: #fcfcfc\">Infecções ativas na pele: Pessoas com infecções cutâneas ativas devem aguardar a resolução antes de realizar o procedimento.</span></p><p><span style=\"color: #fcfcfc\">Histórico de quelóides ou cicatrização anormal: indivíduos propensos a queloides ou cicatrização hipertrófica devem ser cautelosos, pois o microagulhamento envolve a criação controlada de microlesões na pele.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Quais são os benefícios do microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">Os benefícios do microagulhamento são diversos, destacando-se como uma opção versátil e eficaz para melhorar a saúde e a aparência da pele. Alguns benefícios incluem:</span></p><p><span style=\"color: #fcfcfc\">Estimulação do colágeno: o microagulhamento estimula a produção natural de colágeno, promovendo firmeza e elasticidade.</span></p><p><span style=\"color: #fcfcfc\">Mínimo tempo de recuperação: geralmente, há pouco tempo de recuperação, permitindo que os pacientes retomem suas atividades normais rapidamente.</span></p><p><span style=\"color: #fcfcfc\">Versatilidade: pode ser aplicado em diversas áreas do corpo e em diferentes tipos de pele.</span></p><p><span style=\"color: #fcfcfc\">Resultados graduais e naturais: os resultados são progressivos, proporcionando uma transformação natural ao longo do tempo.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Como é a aplicação do microagulhamento?</span></p><p><span style=\"color: #fcfcfc\">O microagulhamento é realizado por meio de um dispositivo composto por finas agulhas que criam microlesões na pele. O procedimento é realizado em sessões, com intervalo mensal, e o número de sessões necessárias pode variar de acordo com a condição tratada.&nbsp;</span></p><p><span style=\"color: #fcfcfc\">Antes da aplicação, a pele recebe pomada anestésica para minimizar qualquer desconforto.&nbsp;</span></p><p><span style=\"color: #fcfcfc\"><br></span></p><p><span style=\"color: #fcfcfc\">Se você busca uma solução eficaz para melhorar a qualidade da sua pele, o microagulhamento pode ser a resposta. Entre em contato conosco para agendar uma consulta e descubra como o microagulhamento pode transformar a sua aparência de maneira segura e personalizada.</span></p><p><span style=\"color: #fcfcfc\"><br></span></p>"
-    }
-  },
-  "collections/blog/posts/88f26e85debd": {
-    "name": "collections/blog/posts/88f26e85debd",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Dra. Maria Clara Couto",
-          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/dc9df64a-d88b-4f3a-8faf-94a3fa5e8723",
-          "email": "dramariaclaracouto@gmail.com"
-        }
-      ],
-      "categories": [
-        {
-          "name": "Procedimentos",
-          "slug": "procedimentos"
-        }
-      ],
-      "date": "2024-04-19",
-      "slug": "peeling-quimicos",
-      "title": "Peeling químico | o que é, para que serve e cuidados",
-      "excerpt": " Descubra a arte da renovação da pele com os peelings químicos, uma abordagem consagrada para revelar uma tez mais radiante e jovem. ",
-      "content": "<p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">O peeling químico é uma das formas mais efetivas de rejuvenescimento da pele, sendo responsável por uma renovação celular induzida por ácidos variados e em diferentes concentrações. O tratamento estético é feito em consultório dermatológico e sua indicação ocorre após análise minuciosa da pele do paciente e suas principais queixas.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são as indicações dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">Os peelings químicos são recomendados para diversas condições dermatológicas. Suas principais indicações incluem:</span></p><p><span style=\"color: #ffffff\"><br></span></p><ul><li><p><span style=\"color: #ffffff\">Rugas e linhas finas: redução visível de rugas e linhas de expressão, promovendo uma pele mais suave.</span></p></li><li><p><span style=\"color: #ffffff\">Hiperpigmentação: clareamento de manchas escuras, sardas e melasma para uma pele mais uniforme.</span></p></li><li><p><span style=\"color: #ffffff\">Acne e cicatrizes de acne: melhoria da textura da pele, redução de cicatrizes de acne e controle da oleosidade.</span></p></li><li><p><span style=\"color: #ffffff\">Envelhecimento Cutâneo: estímulo à produção de colágeno, promovendo firmeza e elasticidade.</span></p></li><li><p><span style=\"color: #ffffff\">Pele áspera,&nbsp; irregular ou com poros dilatados: suavização da textura da pele para um aspecto mais saudável.</span></p></li><li><p><span style=\"color: #ffffff\">Estrias: melhora do aspecto em razão do estímulo de colágeno.&nbsp;</span></p></li></ul><p><span style=\"color: #ffffff\">Para cada situação mencionada existe um tipo de ácido específico. A maioria deles pode ser administrada de forma conjunta, agindo na correção de mais de uma condição.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais as contraindicações dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">Embora sejam procedimentos seguros, há situações em que os peelings químicos podem não ser recomendados. Contraindicações incluem:</span></p><p><span style=\"color: #ffffff\">Gravidez e Amamentação: Mulheres grávidas ou em fase de amamentação devem evitar peelings químicos (alguns peelings são liberados durante a amamentação).&nbsp;</span></p><p><span style=\"color: #ffffff\">Dermatites: presença de dermatites ou infecções cutâneas ativas é uma contraindicação temporária.</span></p><p><span style=\"color: #ffffff\">Uso atual de Isotretinoína: pacientes em uso de isotretinoína podem precisar aguardar antes de realizar peelings químicos.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais os benefícios dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">Os peelings químicos oferecem diversos benefícios, destacando-se como uma solução versátil para melhorar a saúde da pele. Alguns benefícios incluem:</span></p><p><span style=\"color: #ffffff\">Renovação celular: estímulo à renovação celular para uma pele uniforme e viçosa.&nbsp;</span></p><p><span style=\"color: #ffffff\">Melhoria da textura e tom: suavização de irregularidades e uniformização do tom da pele.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Tratamento personalizado: diferentes tipos de peelings podem ser adaptados às necessidades específicas de cada paciente.</span></p><p><span style=\"color: #ffffff\">Resultados visíveis: efeitos visíveis já na primeira sessão, com melhorias progressivas ao longo do tempo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Como é a aplicação dos peelings químicos?</span></p><p><span style=\"color: #ffffff\">O tratamento é realizado com a aplicação de uma solução química na pele, que é ajustada de acordo com o tipo de peeling e os objetivos do paciente. O tempo de ação será definido individualmente. Dependendo do ácido escolhido, o paciente pode experimentar uma sensação leve de ardor durante o procedimento.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Quais são os tipos de peelings químicos?</span></p><p><span style=\"color: #ffffff\">Existem diferentes tipos de peelings químicos, classificados de acordo com a profundidade de penetração na pele:</span></p><p><span style=\"color: #ffffff\">Peeling superficial: trata camadas externas da pele, adequado para melhoria da textura e tom.</span></p><p><span style=\"color: #ffffff\">Peeling médio: age em camadas mais profundas, indicado para rugas mais pronunciadas e manchas.</span></p><p><span style=\"color: #ffffff\">Peeling Profundo: penetra nas camadas mais profundas, utilizado para casos mais complexos de envelhecimento cutâneo.</span></p><p><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff\">Se você está em busca de uma transformação na saúde e beleza da sua pele, entre em contato conosco para agendar uma consulta. Descubra como os peelings químicos podem ser a chave para uma pele rejuvenescida e radiante.</span></p><p><span style=\"color: #ffffff\"><br></span></p>"
     }
   }
 }
