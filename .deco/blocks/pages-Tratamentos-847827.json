@@ -1,1 +1,1 @@
-{"name":"Tratamentos","path":"/tratamentos","sections":[{"__resolveType":"Header"},{"__resolveType":"Preview /sections/BlogPosts.tsx"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{"name":"Tratamentos","path":"/tratamentos","sections":[{"__resolveType":"Header"},{"__resolveType":"Preview /sections/BlogPosts.tsx"},{"__resolveType":"Footer"},{"__resolveType":"site/sections/BlogPosts.tsx","posts":{"__resolveType":"blog/loaders/BlogpostList.ts","count":12,"page":1},"cta":{"text":"Tratamentos"}}],"__resolveType":"website/pages/Page.tsx"}
