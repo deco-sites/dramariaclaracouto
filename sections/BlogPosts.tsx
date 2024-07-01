@@ -198,6 +198,7 @@ export default function BlogPosts({
     page = 0,
     perPage = 6,
   } = {},
+  typePage
 }: Props) {
   const from = perPage * page;
   const to = perPage * (page + 1);
@@ -228,47 +229,88 @@ export default function BlogPosts({
     <ContainerComponent>
       <>
         <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
-          {posts.slice(from, to).map((post) => (
-            <a
-              href={`/blog/${post.slug}`}
-              class="border border-secondary overflow-hidden rounded-lg"
-            >
-              <Image
-                width={380}
-                height={274}
-                class="object-fit w-full"
-                sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image || ""}
-                alt={post.image}
-                decoding="async"
-                loading="lazy"
-              />
-              <div class="p-6 space-y-4">
-                <div class="font-semibold">{calculateReadingTime(post.content.split(" ").length)}</div>
-                <div class="space-y-2">
-                  <h3 class="text-2xl text-[#EAEBE6]">{post.title}</h3>
-                  <p class="text-base text-[#EAEBE6]">{post.excerpt}</p>
+          {posts?.slice(from, to).map((post) => (
+            (typePage == post.categories[0].name) ?
+              <a
+                href={`/blog/${post.slug}`}
+                class="border border-secondary overflow-hidden rounded-lg"
+              >
+                <Image
+                  width={380}
+                  height={274}
+                  class="object-fit w-full"
+                  sizes="(max-width: 640px) 100vw, 30vw"
+                  src={post.image || ""}
+                  alt={post.image}
+                  decoding="async"
+                  loading="lazy"
+                />
+                <div class="p-6 space-y-4">
+                  <div class="font-semibold">{calculateReadingTime(post.content.split(" ").length)}</div>
+                  <div class="space-y-2">
+                    <h3 class="text-2xl text-[#EAEBE6]">{post.title}</h3>
+                    <p class="text-base text-[#EAEBE6]">{post.excerpt}</p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    {post.categories?.map((category) => (
+                      <div class="badge badge-lg badge-secondary text-xs">
+                        {category.name}
+                      </div>
+                    ))}
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="text-[#EAEBE6]">{post.date
+                      ? new Date(post.date).toLocaleDateString("en-US", {
+                        month: "long",
+                        day: "numeric",
+                        year: "numeric",
+                      })
+                      : ""}</span>
+                    <span class="text-[#EAEBE6]">•</span>
+                    <span class="text-[#EAEBE6]">{post.authors[0]?.name}</span>
+                  </div>
                 </div>
-                <div class="flex flex-wrap gap-2">
-                  {post.categories?.map((category) => (
-                    <div class="badge badge-lg badge-secondary text-xs">
-                      {category.name}
-                    </div>
-                  ))}
+              </a>
+            : <a
+                href={`/blog/${post.slug}`}
+                class="border border-secondary overflow-hidden rounded-lg"
+              >
+                <Image
+                  width={380}
+                  height={274}
+                  class="object-fit w-full"
+                  sizes="(max-width: 640px) 100vw, 30vw"
+                  src={post.image || ""}
+                  alt={post.image}
+                  decoding="async"
+                  loading="lazy"
+                />
+                <div class="p-6 space-y-4">
+                  <div class="font-semibold">{calculateReadingTime(post.content.split(" ").length)}</div>
+                  <div class="space-y-2">
+                    <h3 class="text-2xl text-[#EAEBE6]">{post.title}</h3>
+                    <p class="text-base text-[#EAEBE6]">{post.excerpt}</p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    {post.categories?.map((category) => (
+                      <div class="badge badge-lg badge-secondary text-xs">
+                        {category.name}
+                      </div>
+                    ))}
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="text-[#EAEBE6]">{post.date
+                      ? new Date(post.date).toLocaleDateString("en-US", {
+                        month: "long",
+                        day: "numeric",
+                        year: "numeric",
+                      })
+                      : ""}</span>
+                    <span class="text-[#EAEBE6]">•</span>
+                    <span class="text-[#EAEBE6]">{post.authors[0]?.name}</span>
+                  </div>
                 </div>
-                <div class="flex flex-wrap gap-2">
-                  <span class="text-[#EAEBE6]">{post.date
-                    ? new Date(post.date).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })
-                    : ""}</span>
-                  <span class="text-[#EAEBE6]">•</span>
-                  <span class="text-[#EAEBE6]">{post.authors[0]?.name}</span>
-                </div>
-              </div>
-            </a>
+              </a>
           ))}
         </div>
         {to < posts.length && (
