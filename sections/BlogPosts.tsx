@@ -33,6 +33,7 @@ export interface Props {
     /** @title items per page */
     perPage?: number;
   };
+  typePage?: "Procedimentos" | "Tratamentos"
 } 
 
 const DEFAULT_IMAGE =
@@ -271,7 +272,7 @@ export default function BlogPosts({
           ))}
         </div>
         {to < posts.length && (
-          <div class="flex justify-center w-full" id={postList}>
+          <div class="flex justify-center w-full mt-3" id={postList}>
             <button
               hx-get={fetchMoreLink}
               hx-swap="outerHTML"
