@@ -6,7 +6,15 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "site/sections/CapturePage.tsx"
+      "__resolveType": "site/sections/CapturePage.tsx",
+      "textButton": "Quero agendar minha consulta!",
+      "linkButton": "https://wa.me/5511933058210"
+    },
+    {
+      "__resolveType": "site/sections/OQueEncontrar.tsx"
+    },
+    {
+      "__resolveType": "site/sections/AgendaSuaConsulta.tsx"
     },
     {
       "__resolveType": "Footer"

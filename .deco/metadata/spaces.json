@@ -699,20 +699,21 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "/.deco/blocks/pages-home-5afd25174424.json::Properties:undefined:listProperties{}",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-/.deco/blocks/pages-home-5afd25174424.json::Properties:undefined:listProperties{}\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "/.deco/blocks/pages-home-5afd25174424.json::Properties:undefined:listProperties{}"
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -720,20 +721,21 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "/.deco/blocks/pages-home-5afd25174424.json::Preview:undefined:worldPreview{}",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-/.deco/blocks/pages-home-5afd25174424.json::Preview:undefined:worldPreview{}\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "/.deco/blocks/pages-home-5afd25174424.json::Preview:undefined:worldPreview{}"
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -749,25 +751,26 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "/.deco/blocks/pages-home-5afd25174424.json::Properties:undefined:listProperties{}": {
+        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
-          "id": "/.deco/blocks/pages-home-5afd25174424.json::Properties:undefined:listProperties{}",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
-        "/.deco/blocks/pages-home-5afd25174424.json::Preview:undefined:worldPreview{}": {
+        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
-          "id": "/.deco/blocks/pages-home-5afd25174424.json::Preview:undefined:worldPreview{}",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1117,8 +1120,7 @@
           },
           "id": "collections%3A4381a46ca720::Blog%20%2F%20Posts%20%2F%204381a46ca720::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F4381a46ca720.json%5C%22%7D%22%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "collections%3A4381a46ca720::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F4381a46ca720%5C%22%7D%22%7D": {
