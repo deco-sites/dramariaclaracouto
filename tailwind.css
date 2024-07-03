@@ -65,6 +65,10 @@ body {
   }
 }
 
+.image-decoration {
+  text-decoration: none;
+}
+
 .home-title {
   font-size: 50px;
   font-weight: 700;
