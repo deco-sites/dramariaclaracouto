@@ -272,5 +272,11 @@
     "path": "/botox",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-My%2520New%2520Page-337658.json": {
+    "name": "My New Page",
+    "path": "/example-path-capture",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

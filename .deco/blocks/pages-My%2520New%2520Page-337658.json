@@ -1,0 +1,52 @@
+{
+  "name": "My New Page",
+  "path": "/example-path-capture",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/CapturePage.tsx",
+      "textButton": "Quero agendar minha consulta!",
+      "linkButton": "https://wa.me/5511933058210",
+      "contentTop": "<p>TESTES</p>"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "site/sections/OQueEncontrar.tsx",
+      "benefits": [
+        {
+          "label": "Acido hialuronico",
+          "description": "Novo procedimento",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6165/ea37edb2-fcf4-4ac5-932d-f030d3c2e3bd"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "cta": {
+        "outline": false,
+        "href": "#",
+        "text": "Teste"
+      },
+      "questions": [
+        {
+          "title": "Ácido hialurônico é bom?",
+          "answer": "<p>Sim, ele é bom!</p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/AgendaSuaConsulta.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
