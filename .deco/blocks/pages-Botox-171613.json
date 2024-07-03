@@ -11,7 +11,18 @@
       "linkButton": "https://wa.me/5511933058210"
     },
     {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
       "__resolveType": "site/sections/OQueEncontrar.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "cta": {
+        "outline": false,
+        "href": "#",
+        "text": "Teste"
+      }
     },
     {
       "__resolveType": "site/sections/AgendaSuaConsulta.tsx"
