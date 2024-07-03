@@ -64,13 +64,10 @@ export default function ImageWithParagraph({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-          <p class="text-sm font-semibold">
-            {tagline}
-          </p>
-          <p class="text-4xl leading-snug">
+          <p class="text-4xl leading-snug text-[#EAEBE6]">
             {title}
           </p>
-          <p class="leading-normal">
+          <p class="leading-normal text-[#EAEBE6]">
             {description}
           </p>
           <div class="flex gap-3 pt-4">
@@ -96,7 +93,7 @@ export default function ImageWithParagraph({
                   >
                     <path
                       d="M9.70697 16.9767L15.414 11.2697L9.70697 5.56274L8.29297 6.97674L12.586 11.2697L8.29297 15.5627L9.70697 16.9767Z"
-                      fill="#18181B"
+                      fill="#EAEBE6"
                     />
                   </svg>
                 )}

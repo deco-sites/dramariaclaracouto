@@ -83,9 +83,9 @@ export default function RichText(props: Props) {
   return (
 
     <div
-      class="container mx-auto flex items-center justify-around flex-wrap max-[1020px]:flex-col"
+      class="container mx-auto flex items-center justify-start flex-wrap max-[1020px]:flex-col"
     >
-      <h2 class="w-[85%] mx-auto text-[30px] font-bold text-[#EAEBE6]">Endereços:</h2>
+      <h2 class="w-full mx-auto text-[30px] font-bold text-[#EAEBE6]">Endereços:</h2>
       {mappingData}
     </div>
   );

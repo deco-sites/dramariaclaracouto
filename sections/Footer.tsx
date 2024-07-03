@@ -242,48 +242,19 @@ export default function Footer({
             <form class="flex flex-col gap-4" onSubmit={handleSubmit}>
               <p class="font-normal">{subscribe.description}</p>
               <div class="flex gap-4 items-end max-[1020px]:flex-col max-[1020px]:items-start">
-                <form nSubmit={(e) => {
-                  e.preventDefault();
-                  // sendEmail();
-                }}>
+                <form class="flex flex-col" action="https://submit-form.com/XJIKO5xtw" >
                   <div class="flex flex-col">
-                    <input
-                      type="text"
-                      placeholder="Nome"
-                      class="flex-auto input input-bordered input-primary mb-2"
-                      id="input-name"
-                      name="name"
-                      // onChange={() => setNome(event?.target)}
-                    />
-                    <input
-                      type="text"
-                      placeholder="Telefone"
-                      class="flex-auto input input-bordered input-primary mb-2"
-                      id="input-phone"
-                      name="phone"
-                      // onChange={() => setTelefone(event?.target)}
-                    />
-                    <input
-                      type="text"
-                      placeholder="Digite seu e-mail"
-                      class="flex-auto input input-bordered input-primary mb-2"
-                      id="input-mail"
-                      name="email"
-                      // onChange={() => setEmail(event?.target)}
-                    />
+                    <input type="text" id="name" name="name" placeholder="Name" required="" class="flex-auto input input-bordered input-primary mb-2" />
+                    <input type="email" id="email" name="email" placeholder="Email" required="" class="flex-auto input input-bordered input-primary mb-2" />
                     <textarea
-                      placeholder="Digite uma mensagem"
-                      class="flex-auto input input-bordered input-primary"
-                      name="textarea"
-                      rows="10" 
-                      cols="30"
+                      id="message"
                       name="message"
-                      // onChange={() => setMensagem(event?.target)}
-                    />
+                      placeholder="Message"
+                      required=""
+                      class="flex-auto input input-bordered input-primary"
+                    ></textarea>
+                    <button type="submit" class="btn btn-outline font-normal mt-3">Inscreva-se</button>
                   </div>
-                  <button type="submit" class="btn btn-outline font-normal" aria-label="Subscribe">
-                    Inscreva-se
-                  </button>
                 </form>
               </div>
               <p
