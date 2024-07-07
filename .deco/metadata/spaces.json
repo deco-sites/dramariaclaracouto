@@ -568,7 +568,73 @@
       "name": "Analytics",
       "pinned": true,
       "icon": "chart-bar",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "analytics::analytics::layout-grid::analytics::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-analytics::analytics::layout-grid::analytics::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "analytics::analytics::layout-grid::analytics::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "analytics::analytics::layout-grid::analytics::%7B%7D": {
           "name": "analytics",
@@ -847,8 +913,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D": {
@@ -1780,66 +1845,118 @@
       "id": "/.deco/blocks/Footer.json",
       "name": "Footer",
       "pinned": false,
-      "icon": "package",
-      "layout": [
-        {
-          "i": "/.deco/blocks/Footer.json::Properties:undefined:listProperties{}",
-          "w": 8,
-          "h": 24,
-          "x": 0,
-          "y": 0,
-          "moved": false,
-          "static": false
+      "icon": "block",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
         },
-        {
-          "i": "/.deco/blocks/Footer.json::Preview:undefined:worldPreview{}",
-          "w": 8,
-          "h": 24,
-          "x": 8,
-          "y": 0,
-          "moved": false,
-          "static": false
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
         },
-        {
-          "i": "/.deco/blocks/Footer.json::JSON Properties:undefined:bracesJSON Properties{}",
-          "w": 8,
-          "h": 24,
-          "x": 16,
-          "y": 0,
-          "moved": false,
-          "static": false
-        }
-      ],
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
-        "/.deco/blocks/Footer.json::Properties:undefined:listProperties{}": {
+        "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
-          "id": "/.deco/blocks/Footer.json::Properties:undefined:listProperties{}",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "/.deco/blocks/Footer.json::Preview:undefined:worldPreview{}": {
+        "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
-          "icon": "world",
+          "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
-          "id": "/.deco/blocks/Footer.json::Preview:undefined:worldPreview{}",
-          "state": {
-            "__signal": null
-          }
-        },
-        "/.deco/blocks/Footer.json::JSON Properties:undefined:bracesJSON Properties{}": {
-          "name": "JSON Properties",
-          "icon": "braces",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "JSON Properties",
-          "id": "/.deco/blocks/Footer.json::JSON Properties:undefined:bracesJSON Properties{}",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
